@@ -94,7 +94,7 @@ div.background-image {
   max-width: 80%;
 }
 
-.navbar .navbar-brand .navbar-default {
+.navbar {
   color: #fff;
   min-height: 200px;
   background-color: #000;
