@@ -57,8 +57,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 3em;
-  margin-bottom: 3em;
+  margin-top: 2em;
+  margin-bottom: 2em;
   max-width: 80%;
 }
 
@@ -94,9 +94,9 @@ div.background-image {
   max-width: 80%;
 }
 
-.navbar {
+.navbar .navbar-brand .navbar-default {
   color: #fff;
-  min-height: 250px;
+  min-height: 200px;
   background-color: #000;
   background-image: url(logo1000.png);
   background-size: contain;
