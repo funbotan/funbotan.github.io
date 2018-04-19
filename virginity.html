@@ -22,25 +22,53 @@
     <script type="text/javascript">
       VK.init({apiId: 6451089, onlyWidgets: true});
     </script>
+    <script type="text/javascript">
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("backbutton").style.display = "block";
+        } else {
+          document.getElementById("backbutton").style.display = "none";
+        }
+      }
+    </script>
   </head>
   <body id="index" class="archive">
     <nav class="navbar navbar-default" role="navigation">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Навигация</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href=".">Cyber ape stories</a>
+        <div class="topnav" id="myTopnav">
+          <a href="." class="active">Блог</a>
+          <div class="dropdown">
+            <button class="dropbtn">Проекты 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="./pages/ce.html">[FIN] Эффект Шимпанзе</a>
+              <a>[WIP] Ashes of Liberty</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Решения 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a>Парадокс Ферми</a>
+              <a>Моральный реализм</a>
+            </div>
+          </div> 
+          <a href="./pages/translations.html">Переводы</a>
+          <a href="https://vk.com/cyber_ape" target="_blank">vk/cyber_ape</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
-        <div class="collapse navbar-collapse navbar-right">
-          <ul class="nav navbar-nav">
-            <li><a href="./tags.html">теги</a></li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+        <blockquote class="motto">Скажи мне, как ты отличаешь правду от лжи, и я скажу, кто ты.</blockquote>
       </div>
     </nav>
     <div class="container">
@@ -66,8 +94,8 @@
 
 <p>Теперь можно предлагать гипотезу.</p>
 <p>Нередко женщины используют странную стратегию: беременеют от одного мужчины, и сразу после этого выходят замуж за другого. Так или иначе, от 1% до 3% отцов воспитывают чужих детей. Быть может, проверка девственности перед браком возникла как ответная реакция на эту стратегию?</p>
-<p>Но тогда возникает другой вопрос: а в чем смысл женской стратегии со сменой отца?<br>
-Благодаря технологическому прогрессу, здоровые гены все меньше коррелируют с успешностью мужчин, причем уже довольно давно. Если женщина хочет обеспечить своему потомству успех и здоровье одновременно, она оказывается перед дилеммой: кого выбирать в отцы? Сильные альфа-самцы агрессивны, плохо вписываются в общество и с высокой вероятностью окажутся в тюрьме или просто бросят своих детей. Те же, кто обладает хорошим потенциалом для поддержки потомства, плохо вписываются в сформированную эволюцией модель охотника-добытчика и обладают не лучшим набором генов. В такой постановке описанная выше стратегия оказывается прямо-таки гениальным решением.</p>
+<p>Но тогда возникает другой вопрос: а в чем смысл женской стратегии со сменой отца?</p>
+<p>Благодаря технологическому прогрессу, здоровые гены все меньше коррелируют с успешностью мужчин, причем уже довольно давно. Если женщина хочет обеспечить своему потомству успех и здоровье одновременно, она оказывается перед дилеммой: кого выбирать в отцы? Сильные альфа-самцы агрессивны, плохо вписываются в общество и с высокой вероятностью окажутся в тюрьме или просто бросят своих детей. Те же, кто обладает хорошим потенциалом для поддержки потомства, плохо вписываются в сформированную эволюцией модель охотника-добытчика и обладают не лучшим набором генов. В такой постановке описанная выше стратегия оказывается прямо-таки гениальным решением.</p>
 <p><img alt="" src="./content/posts/virginity/meme.jpg"></p>
 <p>Да, такое поведение аморально - с этим мало кто будет спорить. Но попытаемся посмотреть на него с другой стороны. Разве не заслуживает уважения человек, намеренно подвергающий себя опасности (коей являются альфа-самцы) даже не ради собственной выгоды, а ради своих детей и сохранения генетического пула всего человечества в жизнеспособном состоянии?</p>
 <p>Важно понимать, что мы всегда можем списать проблемы общества на злонамеренность или тупость индивидов или групп людей, но это тупиковый путь. Мы ничего не можем с ними сделать. С другой стороны, если предположить, что на фундаментальном уровне все люди хотят, как лучше, можно строить планы по направлению их коллективной воли в конструктивное русло. По крайней мере, этим буду заниматься я.</p>
@@ -89,19 +117,20 @@
         <button type="button" class="btn btn-default">
           <a href="./tag/biologiia.html"><div class="fa fa-lg fa-tag"></div> биология</a>
         </button>
+        <button type="button" class="btn btn-default">
+          <a href="./tag/religiia.html"><div class="fa fa-lg fa-tag"></div> религия</a>
+        </button>
       </footer>
       <!-- /.post-info -->
       <br />
       <div id="vk_like"></div>
-      <script type="text/javascript">
-        VK.Widgets.Like("vk_like", {type: "button", verb: 1, height: 30});
-      </script>
+      <script type="text/javascript">VK.Widgets.Like("vk_like", {type: "button", verb: 1, height: 30});</script>
+      <script type="text/javascript">document.write(VK.Share.button(false,{type: "round", text: "Поделиться"}));</script>
       <br />
       <div id="vk_comments"></div>
-      <script type="text/javascript">
-        VK.Widgets.Comments("vk_comments", {limit: 5, attach: "*"});
-      </script>
+      <script type="text/javascript">VK.Widgets.Comments("vk_comments", {limit: 5, attach: "*"});</script>
     </section>
+    <button onclick="window.open('.','_self')" id="backbutton" title="Вернуться к оглавлению блога">◄ Назад</button>
     </div>
     <footer class="footer">
       <div class="container">

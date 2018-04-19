@@ -22,34 +22,86 @@
     <script type="text/javascript">
       VK.init({apiId: 6451089, onlyWidgets: true});
     </script>
+    <script type="text/javascript">
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("backbutton").style.display = "block";
+        } else {
+          document.getElementById("backbutton").style.display = "none";
+        }
+      }
+    </script>
   </head>
   <body id="index" class="archive">
     <nav class="navbar navbar-default" role="navigation">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Навигация</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="..">Cyber ape stories</a>
+        <div class="topnav" id="myTopnav">
+          <a href=".." class="active">Блог</a>
+          <div class="dropdown">
+            <button class="dropbtn">Проекты 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="../pages/ce.html">[FIN] Эффект Шимпанзе</a>
+              <a>[WIP] Ashes of Liberty</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Решения 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a>Парадокс Ферми</a>
+              <a>Моральный реализм</a>
+            </div>
+          </div> 
+          <a href="../pages/translations.html">Переводы</a>
+          <a href="https://vk.com/cyber_ape" target="_blank">vk/cyber_ape</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
-        <div class="collapse navbar-collapse navbar-right">
-          <ul class="nav navbar-nav">
-            <li class="active"active><a href="../tags.html">теги</a></li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+        <blockquote class="motto">Скажи мне, как ты отличаешь правду от лжи, и я скажу, кто ты.</blockquote>
       </div>
     </nav>
     <div class="container">
     <section id="content" class="content">
       <ol class="breadcrumb">
         <li><a href=".."><div class="fa fa-lg fa-home"></div><span class="hidden-xs"> Главная</span></a></li>
-        <li><a href="../tags.html"><div class="fa fa-lg fa-tags"></div> Теги <span class="badge">18</span></a></li>
-        <li class="active"><div class="fa fa-lg fa-tag"></div> религия <span class="badge">1</span></li>
+        <li><a href="../tags.html"><div class="fa fa-lg fa-tags"></div> Теги <span class="badge">19</span></a></li>
+        <li class="active"><div class="fa fa-lg fa-tag"></div> религия <span class="badge">4</span></li>
       </ol>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Сб 17 Март 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../virginity.html" rel="bookmark" title="Permalink to Телегониво и генетические шахматы">Телегониво и генетические шахматы</a> (2 min)
+            <br/>
+            Откуда в обществе взялась нездоровая фиксация на женской девственности?
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Ср 14 Февраль 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../economic-religion.html" rel="bookmark" title="Permalink to Холодная война и экономические религии">Холодная война и экономические религии</a> (2 min)
+            <br/>
+            Марксизм – отнюдь не единственная попытка заткнуть «дыру размером с бога» экономикой.
+          </p>
+        </div>
+      </div>
       <div class="row">
         <div class="col-sm-3">
           <span class="text-muted">Вс 15 Октябрь 2017</span>
@@ -59,6 +111,18 @@
             <a href="../just-world-fallacy.html" rel="bookmark" title="Permalink to О (не)справедливом мире">О (не)справедливом мире</a> (3 min)
             <br/>
             Чем на самом деле мотивировались человеческие жертвоприношения, и причем тут Бердяев?
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Вт 03 Январь 2017</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../antieducation.html" rel="bookmark" title="Permalink to Антиобучение">Антиобучение</a> (7 min)
+            <br/>
+            О связи изменения алгоритма гугла с ИГИЛ и прочих трампах
           </p>
         </div>
       </div>

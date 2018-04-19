@@ -22,25 +22,53 @@
     <script type="text/javascript">
       VK.init({apiId: 6451089, onlyWidgets: true});
     </script>
+    <script type="text/javascript">
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("backbutton").style.display = "block";
+        } else {
+          document.getElementById("backbutton").style.display = "none";
+        }
+      }
+    </script>
   </head>
   <body id="index" class="archive">
     <nav class="navbar navbar-default" role="navigation">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Навигация</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href=".">Cyber ape stories</a>
+        <div class="topnav" id="myTopnav">
+          <a href="." class="active">Блог</a>
+          <div class="dropdown">
+            <button class="dropbtn">Проекты 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="./pages/ce.html">[FIN] Эффект Шимпанзе</a>
+              <a>[WIP] Ashes of Liberty</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Решения 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a>Парадокс Ферми</a>
+              <a>Моральный реализм</a>
+            </div>
+          </div> 
+          <a href="./pages/translations.html">Переводы</a>
+          <a href="https://vk.com/cyber_ape" target="_blank">vk/cyber_ape</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
-        <div class="collapse navbar-collapse navbar-right">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="./tags.html">теги</a></li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+        <blockquote class="motto">Скажи мне, как ты отличаешь правду от лжи, и я скажу, кто ты.</blockquote>
       </div>
     </nav>
     <div class="container">
@@ -54,8 +82,13 @@
                 <li><span class="text-muted">Сб 17 Март 2018 &raquo; </span><a href="./virginity.html">Телегониво и генетические шахматы</a></li>   
                 <li><span class="text-muted">Вт 27 Февраль 2018 &raquo; </span><a href="./simple-math.html">Про математику (но без математики)</a></li>   
                 <li><span class="text-muted">Пн 26 Февраль 2018 &raquo; </span><a href="./marginal-scale.html">Предельный масштаб</a></li>   
+                <li><span class="text-muted">Пт 23 Февраль 2018 &raquo; </span><a href="./war-machines.html">Бесполезные жестянки</a></li>   
+                <li><span class="text-muted">Чт 22 Февраль 2018 &raquo; </span><a href="./maximum-evil.html">Максимально возможное зло</a></li>   
+                <li><span class="text-muted">Вт 20 Февраль 2018 &raquo; </span><a href="./power-corrupts.html">Власть</a></li>   
+                <li><span class="text-muted">Пн 19 Февраль 2018 &raquo; </span><a href="./responsibility.html">Ответственность</a></li>   
                 <li><span class="text-muted">Пт 16 Февраль 2018 &raquo; </span><a href="./exxon-knew.html">Учимся продавать смерть</a></li>   
                 <li><span class="text-muted">Чт 15 Февраль 2018 &raquo; </span><a href="./expert-mistakes.html">Эксперты и везунчики</a></li>   
+                <li><span class="text-muted">Ср 14 Февраль 2018 &raquo; </span><a href="./economic-religion.html">Холодная война и экономические религии</a></li>   
                 <li><span class="text-muted">Вт 13 Февраль 2018 &raquo; </span><a href="./antagonists.html">Антагонисты</a></li>   
                 <li><span class="text-muted">Пн 12 Февраль 2018 &raquo; </span><a href="./dualisms.html">Парадоксальный дуализм</a></li>   
                 <li><span class="text-muted">Пт 09 Февраль 2018 &raquo; </span><a href="./consciousness-wip.html">Что такое сознание?</a></li>   
@@ -63,11 +96,15 @@
                 <li><span class="text-muted">Ср 07 Февраль 2018 &raquo; </span><a href="./pragmatic-morality.html">Прагматическая мораль</a></li>   
                 <li><span class="text-muted">Вт 06 Февраль 2018 &raquo; </span><a href="./artificial-evolution.html">Искусственная эволюция</a></li>   
                 <li><span class="text-muted">Пн 05 Февраль 2018 &raquo; </span><a href="./actual-future.html">Такое разное будущее</a></li>   
+                <li><span class="text-muted">Вт 30 Январь 2018 &raquo; </span><a href="./invisible-gorilla.html">Неочевидные вопросы</a></li>   
+                <li><span class="text-muted">Пн 29 Январь 2018 &raquo; </span><a href="./to-write.html">Писать или не писать</a></li>   
      </ul>
   
             <h3><a href="./2017"  class="text">Архив для 2017</a></h3>
             <ul class="archive-list">
+                <li><span class="text-muted">Вс 15 Октябрь 2017 &raquo; </span><a href="./evangelion.html">Почему я люблю Евангелион</a></li>   
                 <li><span class="text-muted">Вс 15 Октябрь 2017 &raquo; </span><a href="./just-world-fallacy.html">О (не)справедливом мире</a></li>   
+                <li><span class="text-muted">Вт 03 Январь 2017 &raquo; </span><a href="./antieducation.html">Антиобучение</a></li>   
      </ul>
 </dl>
     </div>

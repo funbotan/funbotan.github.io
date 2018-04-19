@@ -22,25 +22,53 @@
     <script type="text/javascript">
       VK.init({apiId: 6451089, onlyWidgets: true});
     </script>
+    <script type="text/javascript">
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("backbutton").style.display = "block";
+        } else {
+          document.getElementById("backbutton").style.display = "none";
+        }
+      }
+    </script>
   </head>
   <body id="index" class="archive">
     <nav class="navbar navbar-default" role="navigation">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Навигация</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href=".">Cyber ape stories</a>
+        <div class="topnav" id="myTopnav">
+          <a href="." class="active">Блог</a>
+          <div class="dropdown">
+            <button class="dropbtn">Проекты 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="./pages/ce.html">[FIN] Эффект Шимпанзе</a>
+              <a>[WIP] Ashes of Liberty</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Решения 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a>Парадокс Ферми</a>
+              <a>Моральный реализм</a>
+            </div>
+          </div> 
+          <a href="./pages/translations.html">Переводы</a>
+          <a href="https://vk.com/cyber_ape" target="_blank">vk/cyber_ape</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
-        <div class="collapse navbar-collapse navbar-right">
-          <ul class="nav navbar-nav">
-            <li><a href="./tags.html">теги</a></li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+        <blockquote class="motto">Скажи мне, как ты отличаешь правду от лжи, и я скажу, кто ты.</blockquote>
       </div>
     </nav>
     <div class="container">
@@ -56,7 +84,7 @@
       </div>
 <!-- .entry-content -->
       <div class="entry-content">
-        <p>В <a href="../actual-future/ru.md">прошлый раз</a> я говорил, что, пока люди не научатся свободнее относиться к собственной природе, сколь-нибудь интересного будущего у них нет. И дело не только в космосе. В каждом поколении рождается все больше детей, которые не выжили бы, родись они в предыдущем. В 1900 году детская смертность составляла 36% – более чем каждый третий. Можете хотя бы представить ту же картину сегодня? </p>
+        <p>В <a href="./actual-future.html">прошлый раз</a> я говорил, что, пока люди не научатся свободнее относиться к собственной природе, сколь-нибудь интересного будущего у них нет. И дело не только в космосе. В каждом поколении рождается все больше детей, которые не выжили бы, родись они в предыдущем. В 1900 году детская смертность составляла 36% – более чем каждый третий. Можете хотя бы представить ту же картину сегодня? </p>
 <p>Чтобы избежать неверных трактовок, сразу поясню: не существует рационального аргумента против спасения людей. Если вам кажется, что смерть какого-то ребенка допустима, независимо от причины (это в ваш огород, противники государственного здравоохранения) – вам самим следует наведаться к врачу, дабы извлечь голову из задницы. И моя позиция в целом может стать прозрачнее, если я уточню, что сам обязан жизнью достижениям медицины 20-го века. </p>
 <p>Аккуратно отложив этот вопрос в сторону, можно вернуться к основной теме и сделать очень противоречивое утверждение. У высокой выживаемости есть обратная сторона: отсутствие естественного отбора. Это означает, что с каждым поколением люди будут становиться слабее. Единственный выход – искусственно улучшать их, заменяя «плохие» гены.</p>
 <p>Ясное дело, что понятие «плохие» сразу же начнет переопределяться. Уже первое поколение, на котором будет использована технология редактирования генома, будет не просто сильнее предыдущего, а сильнее всех предыдущих. И нет, это не создаст разрыва в обществе из-за невозможности бедных позволить себе модификацию: в здоровой экономический системе цена на нее гарантированно снизится по причинам, которые я опишу отдельно. Хотя, в идеале, ее, как и здравоохранение, стоило бы отнести к гарантированным правам человека. </p>
@@ -86,15 +114,13 @@
       <!-- /.post-info -->
       <br />
       <div id="vk_like"></div>
-      <script type="text/javascript">
-        VK.Widgets.Like("vk_like", {type: "button", verb: 1, height: 30});
-      </script>
+      <script type="text/javascript">VK.Widgets.Like("vk_like", {type: "button", verb: 1, height: 30});</script>
+      <script type="text/javascript">document.write(VK.Share.button(false,{type: "round", text: "Поделиться"}));</script>
       <br />
       <div id="vk_comments"></div>
-      <script type="text/javascript">
-        VK.Widgets.Comments("vk_comments", {limit: 5, attach: "*"});
-      </script>
+      <script type="text/javascript">VK.Widgets.Comments("vk_comments", {limit: 5, attach: "*"});</script>
     </section>
+    <button onclick="window.open('.','_self')" id="backbutton" title="Вернуться к оглавлению блога">◄ Назад</button>
     </div>
     <footer class="footer">
       <div class="container">
