@@ -22,6 +22,7 @@
     <script type="text/javascript">
       VK.init({apiId: 6451089, onlyWidgets: true});
     </script>
+    <script type="text/javascript" src="https://vk.com/js/api/share.js?95" charset="windows-1251"></script>
     <script type="text/javascript">
       function myFunction() {
         var x = document.getElementById("myTopnav");
@@ -51,7 +52,7 @@
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-              <a href="./pages/ce.html">[FIN] Эффект Шимпанзе</a>
+              <a href="./ce.html">[FIN] Эффект Шимпанзе</a>
               <a>[WIP] Ashes of Liberty</a>
             </div>
           </div>
@@ -61,7 +62,6 @@
             </button>
             <div class="dropdown-content">
               <a>Парадокс Ферми</a>
-              <a>Моральный реализм</a>
             </div>
           </div> 
           <a href="./pages/translations.html">Переводы</a>
@@ -89,6 +89,7 @@
 <p>Категорический императив Канта – «относись к другим не как к средству, а как к цели» – одну из наиболее удачных попыток инкапсулировать все моральные правила в одном предложении – невозможно использовать при реализации власти. Даже идеальный правитель вынужден относиться к подчиненным, как к средствам, потому что только через их использование он может чего-то добиться. Нельзя принять во внимание индивидуальность каждого, отдавая приказы сразу всем. Тем более, когда любое решение прямо или косвенно кому-то навредит. </p>
 <p>Если хирург попытается поставить себя на место пациента во время операции, его рука дрогнет, и пациенту будет только хуже. Так же и правитель, пытаясь сделать «как лучше для всех», неизбежно получит противоположный результат. То есть, чтобы выполнять свою работу, он должен частично отгородиться от своих чувств. Но вот незадача: если не остановиться вовремя и отгородиться намертво, легко стать кровавым диктатором. Найти золотую середину и удерживать ее на протяжении многих лет – непосильно тяжелая задача. Человеческий разум просто непригоден для ее решения. И с этим надо что-то делать.</p>
 <p>Кстати, это можно считать моим отзывом на <a href="https://shikimori.org/animes/1575-code-geass">Code Geass</a>.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PVgC8ZpaRDw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
 <!-- /.entry-content -->
       <footer class="post-info text-muted">
@@ -112,7 +113,9 @@
       <br />
       <div id="vk_like"></div>
       <script type="text/javascript">VK.Widgets.Like("vk_like", {type: "button", verb: 1, height: 30});</script>
-      <script type="text/javascript">document.write(VK.Share.button(false,{type: "round", text: "Поделиться"}));</script>
+      <script type="text/javascript">
+        document.write(VK.Share.button(false,{type: "round", text: "Поделиться"}));
+      </script>
       <br />
       <div id="vk_comments"></div>
       <script type="text/javascript">VK.Widgets.Comments("vk_comments", {limit: 5, attach: "*"});</script>
