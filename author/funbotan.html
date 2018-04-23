@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <title>Cyber ape stories - FunBotan</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" />
+    <!--<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" rel="stylesheet" />-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/theme/style.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="/theme/favicon.png"/>
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?153"></script>
+    <script type="text/javascript">
+      VK.init({apiId: 6451089, onlyWidgets: true});
+    </script>
+    <script type="text/javascript" src="https://vk.com/js/api/share.js?95" charset="windows-1251"></script>
+    <script type="text/javascript">
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("backbutton").style.display = "block";
+        } else {
+          document.getElementById("backbutton").style.display = "none";
+        }
+      }
+    </script>
+  </head>
+  <body id="index" class="archive">
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="topnav" id="myTopnav">
+          <a href=".." id="mainpage">Блог</a>
+          <div class="dropdown">
+            <button class="dropbtn">Проекты 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="../ce.html">[FIN] Эффект Шимпанзе</a>
+              <a>[WIP] Ashes of Liberty</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Решения 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="../fermi-paradox.html">Парадокс Ферми</a>
+            </div>
+          </div> 
+          <a href="../translations.html">Переводы</a>
+          <div class="dropdown">
+            <button class="dropbtn">Контакты 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="https://vk.com/funbotan" target="_blank">VK</a>
+              <a href="https://telegram.me/FunBotan" target="_blank">Telegram</a>
+              <a href="https://twitter.com/FunBotan" target="_blank">Twitter</a>
+              <a href="https://github.com/funbotan/funbotan.github.io/issues" target="_blank">Сообщить о проблеме</a>
+            </div>
+          </div> 
+          <a href="https://vk.com/cyber_ape" target="_blank">vk/cyber_ape</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        <blockquote class="motto">Скажи мне, как ты отличаешь правду от лжи, и я скажу, кто ты.</blockquote>
+      </div>
+    </nav>
+    <section id="content" class="content">
+      <ol class="breadcrumb">
+        <li><a href=".."><div class="fa fa-lg fa-home"></div><span class="hidden-xs"> Главная</span></a></li>
+        <li><a href="../authors.html"><div class="fa fa-lg fa-pencil"></div><div class="fa fa-pencil"></div> Авторы <span class="badge">1</span></a></li>
+        <li class="active"><div class="fa fa-lg fa-pencil"></div> FunBotan <span class="badge">25</span></li>
+      </ol>
+      <!--       <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Вс 22 Апрель 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../fermi-paradox.html" rel="bookmark" title="Permalink to Как я решаю парадокс Ферми">Как я решаю парадокс Ферми</a> (5 min)
+            <br/>
+            
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Чт 12 Апрель 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../fermi-gulag.html" rel="bookmark" title="Permalink to Как Tengen Toppa Gurren-Lagann решает парадокс Ферми">Как Tengen Toppa Gurren-Lagann решает парадокс Ферми</a> (5 min)
+            <br/>
+            В честь Дня космонавтики
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Вс 01 Апрель 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../simple-politics.html" rel="bookmark" title="Permalink to Разбираемся в политике методом Фейнмана">Разбираемся в политике методом Фейнмана</a> (3 min)
+            <br/>
+            Как объяснить политику за 3 минуты, не используя ни одного политического термина?
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Сб 17 Март 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../virginity.html" rel="bookmark" title="Permalink to Телегониво и генетические шахматы">Телегониво и генетические шахматы</a> (2 min)
+            <br/>
+            Откуда в обществе взялась нездоровая фиксация на женской девственности?
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Вт 27 Февраль 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../simple-math.html" rel="bookmark" title="Permalink to Про математику (но без математики)">Про математику (но без математики)</a> (1 min)
+            <br/>
+            Придумываем простое и понятное определение математики
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Пн 26 Февраль 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../marginal-scale.html" rel="bookmark" title="Permalink to Предельный масштаб">Предельный масштаб</a> (4 min)
+            <br/>
+            В что вкладываться сегодня, чтобы разбогатеть через пару веков?
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Пт 23 Февраль 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../war-machines.html" rel="bookmark" title="Permalink to Бесполезные жестянки">Бесполезные жестянки</a> (2 min)
+            <br/>
+            Почему в «Эффекте шимпанзе» миром правит Китай
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Чт 22 Февраль 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../maximum-evil.html" rel="bookmark" title="Permalink to Максимально возможное зло">Максимально возможное зло</a> (2 min)
+            <br/>
+            Содержание этого поста обещает быть неожиданным.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Вт 20 Февраль 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../power-corrupts.html" rel="bookmark" title="Permalink to Власть">Власть</a> (2 min)
+            <br/>
+            (и что она делает с людьми)
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Пн 19 Февраль 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../responsibility.html" rel="bookmark" title="Permalink to Ответственность">Ответственность</a> (2 min)
+            <br/>
+            А существует ли общество?
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Пт 16 Февраль 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../exxon-knew.html" rel="bookmark" title="Permalink to Учимся продавать смерть">Учимся продавать смерть</a> (2 min)
+            <br/>
+            Про твоего личного врага, о котором ты, возможно, еще не знаешь.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Чт 15 Февраль 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../expert-mistakes.html" rel="bookmark" title="Permalink to Эксперты и везунчики">Эксперты и везунчики</a> (2 min)
+            <br/>
+            «Эксперт — это человек, который уже совершил все возможные ошибки»
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Ср 14 Февраль 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../economic-religion.html" rel="bookmark" title="Permalink to Холодная война и экономические религии">Холодная война и экономические религии</a> (2 min)
+            <br/>
+            Марксизм – отнюдь не единственная попытка заткнуть «дыру размером с бога» экономикой.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Вт 13 Февраль 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../antagonists.html" rel="bookmark" title="Permalink to Антагонисты">Антагонисты</a> (1 min)
+            <br/>
+            Как правильно придумывать конфликты в своих историях?
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Пн 12 Февраль 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../dualisms.html" rel="bookmark" title="Permalink to Парадоксальный дуализм">Парадоксальный дуализм</a> (2 min)
+            <br/>
+            На практике, взаимно противоречивые утверждения могут быть верны одновременно.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Пт 09 Февраль 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../consciousness-wip.html" rel="bookmark" title="Permalink to Что такое сознание?">Что такое сознание?</a> (2 min)
+            <br/>
+            Ответ тебе не понравится.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Чт 08 Февраль 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../sex-robots.html" rel="bookmark" title="Permalink to Не все, что блестит...">Не все, что блестит...</a> (2 min)
+            <br/>
+            Как относиться к роботам, которых неподготовленный глаз с трудом отличает от людей?
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Ср 07 Февраль 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../pragmatic-morality.html" rel="bookmark" title="Permalink to Прагматическая мораль">Прагматическая мораль</a> (2 min)
+            <br/>
+            А какой аспект будущего предсказать легче всего? Как ни странно, мораль.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Вт 06 Февраль 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../artificial-evolution.html" rel="bookmark" title="Permalink to Искусственная эволюция">Искусственная эволюция</a> (3 min)
+            <br/>
+            Люди. Аспект будущего, о котором разговаривают меньше всего.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Пн 05 Февраль 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../actual-future.html" rel="bookmark" title="Permalink to Такое разное будущее">Такое разное будущее</a> (2 min)
+            <br/>
+            Будущее предсказуемо, но оно совсем не такое, каким его представляют.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Вт 30 Январь 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../invisible-gorilla.html" rel="bookmark" title="Permalink to Неочевидные вопросы">Неочевидные вопросы</a> (2 min)
+            <br/>
+            Ты видишь гориллу? И я нет. А она есть.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Пн 29 Январь 2018</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../to-write.html" rel="bookmark" title="Permalink to Писать или не писать">Писать или не писать</a> (2 min)
+            <br/>
+            И, если писать, то как?
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Вс 15 Октябрь 2017</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../evangelion.html" rel="bookmark" title="Permalink to Почему я люблю Евангелион">Почему я люблю Евангелион</a> (3 min)
+            <br/>
+            Просто посмотри это аниме.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Вс 15 Октябрь 2017</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../just-world-fallacy.html" rel="bookmark" title="Permalink to О (не)справедливом мире">О (не)справедливом мире</a> (3 min)
+            <br/>
+            Чем на самом деле мотивировались человеческие жертвоприношения, и причем тут Бердяев?
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <span class="text-muted">Вт 03 Январь 2017</span>
+        </div>
+        <div class="col-sm-9">
+          <p>
+            <a href="../antieducation.html" rel="bookmark" title="Permalink to Антиобучение">Антиобучение</a> (7 min)
+            <br/>
+            О связи изменения алгоритма гугла с ИГИЛ и прочих трампах
+          </p>
+        </div>
+      </div>
+ -->
+      <div class="wrap">
+        <a href="../fermi-paradox.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/fermi-paradox/cover.jpg);">
+            <span class="centered">
+            <h2>Как <i>я</i> решаю парадокс Ферми</h2>
+            <p class="cover-title" style="color:#fff;"></p>
+            Переводы: 
+<a href="../en/fermi-paradox.html">en</a>
+
+            <div class="text-muted">Вс 22 Апрель 2018</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 5 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../fermi-gulag.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/fermi-gulag/cover.png);">
+            <span class="centered">
+            <h2>Как Tengen Toppa Gurren-Lagann решает парадокс Ферми</h2>
+            <p class="cover-title" style="color:#fff;"><p>В честь Дня космонавтики</p></p>
+            
+            <div class="text-muted">Чт 12 Апрель 2018</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 5 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../simple-politics.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/simple-politics/4.jpg);">
+            <span class="centered">
+            <h2>Разбираемся в политике <a href="https://knife.media/no-bullshit/" target="_blank">методом Фейнмана</a></h2>
+            <p class="cover-title" style="color:#fff;"><p>Как объяснить политику за 3 минуты, не используя ни одного политического термина?</p></p>
+            
+            <div class="text-muted">Вс 01 Апрель 2018</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 3 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../virginity.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/virginity/cover.jpg);">
+            <span class="centered">
+            <h2>Телегониво и генетические шахматы</h2>
+            <p class="cover-title" style="color:#fff;"><p>Откуда в обществе взялась нездоровая фиксация на женской девственности?</p></p>
+            
+            <div class="text-muted">Сб 17 Март 2018</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 2 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../simple-math.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/simple-math/cover.jpg);">
+            <span class="centered">
+            <h2>Про математику (но без математики)</h2>
+            <p class="cover-title" style="color:#fff;"><p>Придумываем простое и понятное определение математики</p></p>
+            
+            <div class="text-muted">Вт 27 Февраль 2018</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 1 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../marginal-scale.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/marginal-scale/cover.jpg);">
+            <span class="centered">
+            <h2>Предельный масштаб</h2>
+            <p class="cover-title" style="color:#fff;"><p>В что вкладываться сегодня, чтобы разбогатеть через пару веков?</p></p>
+            
+            <div class="text-muted">Пн 26 Февраль 2018</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 4 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../war-machines.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/war-machines/cover.jpg);">
+            <span class="centered">
+            <h2>Бесполезные жестянки</h2>
+            <p class="cover-title" style="color:#fff;"><p>Почему в <a href="/ce.html">«Эффекте шимпанзе»</a> миром правит Китай</p></p>
+            
+            <div class="text-muted">Пт 23 Февраль 2018</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 2 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../maximum-evil.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/maximum-evil/cover.jpg);">
+            <span class="centered">
+            <h2>Максимально возможное зло</h2>
+            <p class="cover-title" style="color:#fff;"><p>Содержание этого поста обещает быть неожиданным.</p></p>
+            
+            <div class="text-muted">Чт 22 Февраль 2018</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 2 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../power-corrupts.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/power-corrupts/cover.jpg);">
+            <span class="centered">
+            <h2>Власть</h2>
+            <p class="cover-title" style="color:#fff;"><p>(и что она делает с людьми)</p></p>
+            
+            <div class="text-muted">Вт 20 Февраль 2018</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 2 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../responsibility.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/responsibility/cover.jpg);">
+            <span class="centered">
+            <h2>Ответственность</h2>
+            <p class="cover-title" style="color:#fff;"><p>А существует ли общество?</p></p>
+            
+            <div class="text-muted">Пн 19 Февраль 2018</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 2 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../exxon-knew.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/exxon-knew/cover.jpg);">
+            <span class="centered">
+            <h2>Учимся продавать смерть</h2>
+            <p class="cover-title" style="color:#fff;"><p>Про твоего личного врага, о котором ты, возможно, еще не знаешь.</p></p>
+            
+            <div class="text-muted">Пт 16 Февраль 2018</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 2 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../expert-mistakes.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/expert-mistakes/cover.jpg);">
+            <span class="centered">
+            <h2>Эксперты и везунчики</h2>
+            <p class="cover-title" style="color:#fff;"><p>«Эксперт — это человек, который уже совершил все возможные ошибки»</p></p>
+            
+            <div class="text-muted">Чт 15 Февраль 2018</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 2 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../economic-religion.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/economic-religion/cover.jpg);">
+            <span class="centered">
+            <h2>Холодная война и экономические религии</h2>
+            <p class="cover-title" style="color:#fff;"><p>Марксизм – отнюдь не единственная попытка заткнуть «дыру размером с бога» экономикой.</p></p>
+            
+            <div class="text-muted">Ср 14 Февраль 2018</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 2 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../antagonists.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/antagonists/cover.jpg);">
+            <span class="centered">
+            <h2>Антагонисты</h2>
+            <p class="cover-title" style="color:#fff;"><p>Как правильно придумывать конфликты в своих историях?</p></p>
+            
+            <div class="text-muted">Вт 13 Февраль 2018</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 1 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../dualisms.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/dualisms/cover.jpg);">
+            <span class="centered">
+            <h2>Парадоксальный дуализм</h2>
+            <p class="cover-title" style="color:#fff;"><p>На практике, взаимно противоречивые утверждения могут быть верны одновременно.</p></p>
+            
+            <div class="text-muted">Пн 12 Февраль 2018</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 2 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../consciousness-wip.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/consciousness-wip/cover.jpg);">
+            <span class="centered">
+            <h2>Что такое сознание?</h2>
+            <p class="cover-title" style="color:#fff;"><p>Ответ тебе не понравится.</p></p>
+            
+            <div class="text-muted">Пт 09 Февраль 2018</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 2 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../sex-robots.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/sex-robots/cutie.jpg);">
+            <span class="centered">
+            <h2>Не все, что блестит...</h2>
+            <p class="cover-title" style="color:#fff;"><p>Как относиться к роботам, которых неподготовленный глаз с трудом отличает от людей?</p></p>
+            
+            <div class="text-muted">Чт 08 Февраль 2018</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 2 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../pragmatic-morality.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/pragmatic-morality/cover.jpg);">
+            <span class="centered">
+            <h2>Прагматическая мораль</h2>
+            <p class="cover-title" style="color:#fff;"><p>А какой аспект будущего предсказать легче всего? Как ни странно, мораль.</p></p>
+            
+            <div class="text-muted">Ср 07 Февраль 2018</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 2 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../artificial-evolution.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/artificial-evolution/cover.jpg);">
+            <span class="centered">
+            <h2>Искусственная эволюция</h2>
+            <p class="cover-title" style="color:#fff;"><p>Люди. Аспект будущего, о котором разговаривают меньше всего.</p></p>
+            
+            <div class="text-muted">Вт 06 Февраль 2018</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 3 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../actual-future.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/actual-future/cover.jpg);">
+            <span class="centered">
+            <h2>Такое разное будущее</h2>
+            <p class="cover-title" style="color:#fff;"><p>Будущее предсказуемо, но оно совсем не такое, каким его представляют.</p></p>
+            
+            <div class="text-muted">Пн 05 Февраль 2018</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 2 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../invisible-gorilla.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/invisible-gorilla/cover.jpg);">
+            <span class="centered">
+            <h2>Неочевидные вопросы</h2>
+            <p class="cover-title" style="color:#fff;"><p>Ты видишь гориллу? И я нет. А она есть.</p></p>
+            
+            <div class="text-muted">Вт 30 Январь 2018</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 2 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../to-write.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/to-write/cover.jpg);">
+            <span class="centered">
+            <h2>Писать или не писать</h2>
+            <p class="cover-title" style="color:#fff;"><p>И, если писать, то как?</p></p>
+            
+            <div class="text-muted">Пн 29 Январь 2018</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 2 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../evangelion.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/evangelion/cover.jpg);">
+            <span class="centered">
+            <h2>Почему я люблю Евангелион</h2>
+            <p class="cover-title" style="color:#fff;"><p>Просто посмотри это аниме.</p></p>
+            
+            <div class="text-muted">Вс 15 Октябрь 2017</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 3 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../just-world-fallacy.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/just-world-fallacy/cover.jpg);">
+            <span class="centered">
+            <h2>О (не)справедливом мире</h2>
+            <p class="cover-title" style="color:#fff;"><p>Чем на самом деле мотивировались человеческие жертвоприношения, и причем тут Бердяев?</p></p>
+            
+            <div class="text-muted">Вс 15 Октябрь 2017</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 3 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+        <a href="../antieducation.html" class="implicit">
+          <object>
+          <div class="box" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/antieducation/cover.jpg);">
+            <span class="centered">
+            <h2>Антиобучение</h2>
+            <p class="cover-title" style="color:#fff;"><p>О связи изменения алгоритма гугла с ИГИЛ и прочих трампах</p></p>
+            
+            <div class="text-muted">Вт 03 Январь 2017</div>
+            <p class="cover-title" style="color:#fff;">Время чтения: 7 min</p>
+            </span>
+          </div>
+          </object>
+        </a>
+      </div>
+    </section>
+    <!-- content -->
+    <footer class="footer">
+      <div class="container">
+        <p class="footer-text">
+          <a href="http://cyberape.space/en">Switch to English</a>
+      <br />
+       &copy; <a href="..">Cyber ape stories</a> powered by <a href="http://getpelican.com/">pelican</a></p>
+      </div>
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-117929712-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
