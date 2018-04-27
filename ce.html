@@ -45,9 +45,9 @@
     <nav class="navbar navbar-default" role="navigation">
       <div class="container">
         <div class="topnav" id="myTopnav">
-          <a href="." id="mainpage">Блог</a>
+          <a href="." id="mainpage">🏠 Блог</a>
           <div class="dropdown">
-            <button class="dropbtn">Проекты 
+            <button class="dropbtn" id="projects">Проекты 
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
@@ -63,7 +63,7 @@
               <a href="./fermi-paradox.html">Парадокс Ферми</a>
             </div>
           </div> 
-          <a href="./translations.html">Переводы</a>
+          <a href="./translations.html" id="translations">Переводы</a>
           <div class="dropdown">
             <button class="dropbtn">Контакты 
               <i class="fa fa-caret-down"></i>
@@ -75,10 +75,13 @@
               <a href="https://github.com/funbotan/funbotan.github.io/issues" target="_blank">Сообщить о проблеме</a>
             </div>
           </div> 
-          <a href="https://vk.com/cyber_ape" target="_blank">vk/cyber_ape</a>
+          <a href="./about.html" id="about">Что это?</a>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
-        <blockquote class="motto">Скажи мне, как ты отличаешь правду от лжи, и я скажу, кто ты.</blockquote>
+        <div class="motto">
+          Литературный блог про философию, футуризм и научную фантастику
+          <br />
+        </div>
       </div>
     </nav>
     <div class="container">
@@ -87,13 +90,15 @@
         <h2 class="entry-title">
           Эффект шимпанзе
         </h2>
-        Переводы: 
+        <!--         Переводы: 
 <a href="./en/ce.html">en</a>
-
+ -->
       </header>
 <!-- .entry-content -->
       <div class="entry-content">
-        <p>Жанр: киберпанк, технотриллер, философская научная фантастика.</p>
+        <style type="text/css">#projects { background-color: #428bca; }</style>
+
+<p>Жанр: киберпанк, технотриллер, философская научная фантастика.</p>
 <p>Размер: ~200кб, в принципе читается за день.</p>
 <p>Аннотация:<br>
 2056 год, и до сих пор в прогнозах мейнстримных аналитиков не нашлось существенных изъянов. Да, Китай управляет половиной мира; да, изменение климата привело к беспрецедентным катастрофам; да, по улицам разгуливают киборги и андроиды - ничто из этого не было сюрпризом. В хронике этого периода не будет ни одного портрета - только графики и диаграммы. По крайней мере, так нам казалось до октября...</p>
@@ -139,8 +144,9 @@
       <div class="container">
         <p class="footer-text">
           <a href="http://cyberape.space/en">Switch to English</a>
-      <br />
-       &copy; <a href=".">Cyber ape stories</a> powered by <a href="http://getpelican.com/">pelican</a></p>
+        <br />
+          &copy; <a href=".">Cyber ape stories</a> powered by <a href="http://getpelican.com/">pelican</a>
+        </p>
       </div>
     </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

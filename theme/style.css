@@ -100,17 +100,11 @@ blockquote p {
   font-size: 16px;
 }
 
-blockquote.motto {
-  color: #000;
-  background: #999;
-  border-left: 10px solid #555;
-  font-style: italic;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 19px;
-}
-
-blockquote.motto:before {
-  color: #555;
+.motto {
+  color: #DDD;
+  font-size: 17px;
+  text-align: center;
+  margin: 1em;
 }
 
 div.background-image {
@@ -198,7 +192,7 @@ a.implicit {
 
 .navbar {
   color: #fff;
-  min-height: 200px;
+  min-height: 150px;
   background-color: #000;
   background-image: url(barlogo.png);
   background-size: contain;
@@ -346,7 +340,7 @@ tr td:hover { background: #666; color: #FFF; }
   font-size: 17px;
 }
 
-#mainpage {
+#active {
   background-color: #428bca;
   color: white;
 }

@@ -45,9 +45,9 @@
     <nav class="navbar navbar-default" role="navigation">
       <div class="container">
         <div class="topnav" id="myTopnav">
-          <a href=".." id="mainpage">Blog</a>
+          <a href=".." id="mainpage">🏠 Blog</a>
           <div class="dropdown">
-            <button class="dropbtn">Projects 
+            <button class="dropbtn" id="projects">Projects 
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
@@ -63,7 +63,7 @@
               <a href="../fermi-paradox.html">The Fermi paradox</a>
             </div>
           </div> 
-          <a href="../translations.html">Translations</a>
+          <a href="../translations.html" id="translations">Translations</a>
           <div class="dropdown">
             <button class="dropbtn">Contact 
               <i class="fa fa-caret-down"></i>
@@ -75,12 +75,19 @@
               <a href="https://github.com/funbotan/funbotan.github.io/issues" target="_blank">Report a problem</a>
             </div>
           </div> 
-          <a href="https://vk.com/cyber_ape" target="_blank">vk/cyber_ape</a>
+          <a href="../about.html" id="about">What is this?</a>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
-        <blockquote class="motto">Please keep in mind that I've learned English as a second language</blockquote>
+        <div class="motto">
+          Literary blog about philosophy, futurism and science fiction
+          <br />
+          Please keep in mind that I've learned English as a second language
+        </div>
       </div>
     </nav>
+    <style type="text/css">
+      #mainpage { background-color: #428bca; }
+    </style>
     <div class="container">
     <section id="content" class="article content">
       <!-- @html-ignore -->
@@ -137,8 +144,9 @@
       <div class="container">
         <p class="footer-text">
           <a href="http://cyberape.space">Переключить на русский</a>
-      <br />
-       &copy; <a href="..">Cyber ape stories</a> powered by <a href="http://getpelican.com/">pelican</a></p>
+        <br />
+          &copy; <a href="..">Cyber ape stories</a> powered by <a href="http://getpelican.com/">pelican</a>
+        </p>
       </div>
     </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
