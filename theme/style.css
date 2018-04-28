@@ -198,6 +198,7 @@ a.implicit {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right top;
+  border: none;
 }
 
 .navbar-default .navbar-brand .navbar-nav>li>a {
