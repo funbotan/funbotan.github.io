@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700&subset=cyrillic');
+
 @media (max-width: 776px) {
   .text-right {
     text-align: left;
@@ -45,10 +47,16 @@ body {
 
 .entry-content {
   padding: 15px 0;
-  line-height: 25px;
+  line-height: 1.5em;
   text-align: justify;
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  font-family: 'PT Serif', serif;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+
+b, strong {
+  -webkit-font-smoothing: antialiased;
 }
 
 .comment {
@@ -126,6 +134,25 @@ div.background-image {
   color: #fff;
 }
 
+div.background-image {
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  position: relative;
+  float: left;
+  overflow-x: hidden;
+  margin: 20px 0 40px 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  text-align: center;
+  border-radius: 20px;
+  color: #fff;
+}
+
 .wrap {
   overflow: hidden;
   margin: 0px;
@@ -150,7 +177,17 @@ div.box {
   vertical-align: middle;
   height: 300px;
   line-height: 300px;
-  border: solid 1px white;
+  border: solid 2px white;
+  transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out; /* Firefox 4 */
+  -webkit-transition: all .3s ease-in-out; /* Safari and Chrome */
+  -o-transition: all .3s ease-in-out; /* Opera */
+  -ms-transition: all .3s ease-in-out; /* Explorer 10 */
+}
+
+a.implicit:hover .box, a.implicit:focus .box {
+  border-color: #428bca;
+  opacity: 0.8;
 }
 
 @media only screen and (max-width : 600px) {
