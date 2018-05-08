@@ -74,22 +74,24 @@
         </div>
       </div>
     </nav>
-    <style type="text/css">
-      #mainpage { background-color: #428bca; }
-    </style>
-    <div class="container">
-    <section id="content" class="article content">
-      <!-- @html-ignore -->
-      <div class="background-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/breakthrough-starshot/cover.jpg);">
-        <h1 class="cover-title">
-          RIP Стивен Хокинг
-        </h1>
-        
-        <p class="cover-title" style="color:#fff;">Время чтения: 4 min</p>
-      </div>
-<!-- .entry-content -->
-      <div class="entry-content">
-        <h1>Введение</h1>
+<style type="text/css">
+  #mainpage {
+    background-color: #428bca;
+  }
+</style>
+<div class="container">
+  <section id="content" class="article content">
+    <!-- @html-ignore -->
+    <div class="background-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/breakthrough-starshot/cover.jpg);">
+      <h1 class="cover-title">
+        RIP Стивен Хокинг
+      </h1>
+ 
+      <p class="cover-title" style="color:#fff;">Время чтения: 4 min</p>
+    </div>
+    <!-- .entry-content -->
+    <div class="entry-content">
+      <h1>Введение</h1>
 <p>12 апреля 2016 года знаменитый британский физик Стивен Хокинг и российский бизнесмен Юрий Мильнер объявили о выделении $100 млн на финансирование проекта Breakthrough Starshot. Целью проекта стала разработка технологий для создания космических аппаратов, способных совершить межзвездный полет к Альфе Центавра.</p>
 <p>Основой проекта Breakthrough Starshot стала статья профессора физики Калифорнийского университета в Санта-Барбаре Филиппа Любина «План для межзвездных полетов» (<a href="https://www.nasa.gov/sites/default/files/atoms/files/roadmap_to_interstellar_flight_tagged.pdf">A Roadmap to Interstellar Flight</a>). Основная заявленная цель проекта состоит в том, чтобы сделать межзвездные полеты возможными уже при жизни следующего поколения людей, то есть не через столетия, а через десятилетия.</p>
 <p>Межзвездный зонд будет представлять собой космический парусник с электронным модулем StarChip массой 1 г, соединенным сверхпрочными стропами с солнечным парусом площадью 16 м^2, толщиной 100 нм и массой 1 г. Конечно, света нашего Солнца недостаточно, чтобы разогнать даже столь легкую конструкцию до скоростей, при которых межзвездные путешествия не будут длиться тысячелетиями. Поэтому главная идея проекта StarShot — это разгон с помощью мощного лазерного излучения, которое фокусируется на парусе. По расчетам разработчиков, полет к Альфе Центавра продлится около 20 лет.</p>
@@ -145,42 +147,45 @@
 <p>В любом случае это означает, что заявленный в <em>Breakthrough Starshot</em> порядок величины скорости достижим и не требует принципиально новых технологий.</p>
 <p><img alt="" src="./content/posts/breakthrough-starshot/1.jpg">
 <img alt="" src="./content/posts/breakthrough-starshot/2.jpg"></p>
-      </div>
-<!-- /.entry-content -->
-      <footer class="post-info text-muted">
-        <!-- <button type="button" class="btn btn-default">          
+    </div>
+    <!-- /.entry-content -->
+    <footer class="post-info text-muted">
+      <!-- <button type="button" class="btn btn-default">          
           <a href="./category/populiarizatsiia-nauki.html"><div class="fa fa-lg fa-folder-open"></div> Популяризация науки</a>
         </button> -->
-        <button type="button" class="btn btn-default">
-          <a href="./tag/matematika.html"><div class="fa fa-lg fa-tag"></div> математика</a>
-        </button>
-        <button type="button" class="btn btn-default">
-          <a href="./tag/kosmologiia.html"><div class="fa fa-lg fa-tag"></div> космология</a>
-        </button>
-        <button type="button" class="btn btn-default">
-          <a href="./tag/futurizm.html"><div class="fa fa-lg fa-tag"></div> футуризм</a>
-        </button>
-      </footer>
-      <!-- /.post-info -->
-      <br />
-      <div id="hypercomments_widget"></div>
-      <script type="text/javascript">
-        _hcwp = window._hcwp || [];
-        _hcwp.push({widget:"Stream", widget_id: 104293});
-        (function() {
-        if("HC_LOAD_INIT" in window)return;
+       <button type="button" class="btn btn-default">
+        <a href="./tag/matematika.html">
+          <div class="fa fa-lg fa-tag"></div> математика</a>
+      </button>
+      <button type="button" class="btn btn-default">
+        <a href="./tag/kosmologiia.html">
+          <div class="fa fa-lg fa-tag"></div> космология</a>
+      </button>
+      <button type="button" class="btn btn-default">
+        <a href="./tag/futurizm.html">
+          <div class="fa fa-lg fa-tag"></div> футуризм</a>
+      </button>
+     </footer>
+    <!-- /.post-info -->
+    <br />
+    <div id="hypercomments_widget"></div>
+    <script type="text/javascript">
+      _hcwp = window._hcwp || [];
+      _hcwp.push({ widget: "Stream", widget_id: 104293 });
+      (function () {
+        if ("HC_LOAD_INIT" in window) return;
         HC_LOAD_INIT = true;
         var lang = (navigator.language || navigator.systemLanguage || navigator.userLanguage || "en").substr(0, 2).toLowerCase();
         var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
-        hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/104293/"+lang+"/widget.js";
+        hcc.src = ("https:" == document.location.protocol ? "https" : "http") + "://w.hypercomments.com/widget/hc/104293/" + lang + "/widget.js";
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hcc, s.nextSibling);
-        })();
-      </script>
-      <a href="http://hypercomments.com" rel = "nofollow" class="hc-link" title="comments widget">comments powered by HyperComments</a>
-    </section>
-  </div>
-    <button onclick="window.open('.','_self')" id="backbutton" title="Вернуться на главную">◄ Назад</button>
+      })();
+    </script>
+    <a href="http://hypercomments.com" rel="nofollow" class="hc-link" title="comments widget">comments powered by HyperComments</a>
+  </section>
+</div>
+<button onclick="window.open('.','_self')" id="backbutton" title="Вернуться на главную">◄ Назад</button>
     <footer class="footer">
       <div class="container">
         <p class="footer-text">
