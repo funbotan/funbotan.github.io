@@ -142,6 +142,8 @@ span.centered {
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
+  padding-right: 15%;
+  padding-left: 15%;
 }
 
 div.box {
@@ -173,29 +175,42 @@ a.implicit:hover .box, a.implicit:focus .box {
   /* Smartphone view: 1 tile */
   .box {
      width: 100%;
-     padding-right: 15%;
-     padding-left: 15%;
   }
 }
 @media only screen and (max-width : 1500px) and (min-width : 600px) {
   /* Tablet view: 2 tiles */
   .box {
      width: 50%;
-     padding-right: 10%;
-     padding-left: 10%;
   }
 }
 @media only screen and (min-width : 1500px) {
   /* Small desktop / ipad view: 3 tiles */
   .box {
      width: 33.3%;
-     padding-right: 5%;
-     padding-left: 5%;
   }
 }
 
 a.implicit {
   text-decoration: none;
+}
+
+a.category {
+  position: absolute;
+  text-decoration: none;
+  padding: 8px;
+  line-height: 1em;
+  font-size: 16px;
+  border-radius: 5px;
+  z-index: 10;
+  left: 15px;
+  top: 15px;
+}
+
+a.category:hover, a.category:focus {
+  text-decoration: none;
+  border: solid 2px #428bca;
+  left: 13px;
+  top: 13px;
 }
 
 .cover-title {
@@ -290,6 +305,7 @@ tr td:hover { background: #666; color: #FFF; }
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  z-index: 100;
 }
 
 /* Dropdown container - needed to position the dropdown content */
@@ -318,7 +334,7 @@ tr td:hover { background: #666; color: #FFF; }
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 100;
 }
 
 /* Style the links inside the dropdown */
