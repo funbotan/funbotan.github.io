@@ -363,3 +363,11 @@ tr td:hover { background: #666; color: #FFF; }
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
