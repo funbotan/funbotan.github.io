@@ -221,6 +221,11 @@ a.category:hover, a.category:focus {
   max-width: 80%;
 }
 
+@font-face {
+  font-family: telescope;
+  src: url(seguisym.subset.ttf);
+}
+
 .navbar {
   color: #fff;
   min-height: 150px;
@@ -230,6 +235,7 @@ a.category:hover, a.category:focus {
   background-repeat: no-repeat;
   background-position: right top;
   border: none;
+  font-family: Arial, telescope;
 }
 
 .navbar-default .navbar-brand .navbar-nav>li>a {
