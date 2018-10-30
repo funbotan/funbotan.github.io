@@ -56,7 +56,7 @@ body {
 }
 
 pre {
-  font-size: 19px;
+  font-size: 19px !important;
 }
 
 b, strong {
