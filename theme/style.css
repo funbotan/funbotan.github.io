@@ -55,6 +55,10 @@ body {
   word-wrap: break-word;
 }
 
+pre {
+  font-size: 19px;
+}
+
 b, strong {
   -webkit-font-smoothing: antialiased;
 }
