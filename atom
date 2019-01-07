@@ -1,5 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Cyber Ape stories</title><link href="http://cyberape.space/" rel="alternate"></link><link href="http://cyberape.space/atom" rel="self"></link><id>http://cyberape.space/</id><updated>2018-12-31T00:00:00+03:00</updated><entry><title>Думать как Илон Маск</title><link href="http://cyberape.space/elonthink.html" rel="alternate"></link><published>2018-12-31T00:00:00+03:00</published><updated>2018-12-31T00:00:00+03:00</updated><author><name>FunBotan</name></author><id>tag:cyberape.space,2018-12-31:/elonthink.html</id><summary type="html">&lt;p&gt;Нужно всего лишь...&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Cyber Ape stories</title><link href="http://cyberape.space/" rel="alternate"></link><link href="http://cyberape.space/atom" rel="self"></link><id>http://cyberape.space/</id><updated>2019-01-07T00:00:00+03:00</updated><entry><title>Экономика лесных пожаров</title><link href="http://cyberape.space/forest-market.html" rel="alternate"></link><published>2019-01-07T00:00:00+03:00</published><updated>2019-01-07T00:00:00+03:00</updated><author><name>FunBotan</name></author><id>tag:cyberape.space,2019-01-07:/forest-market.html</id><summary type="html">&lt;p&gt;Опробуем новый формат контента&lt;/p&gt;</summary><content type="html">&lt;p&gt;Пока в мире проводятся массовые ликбезы по лесным пожарам, которых в этом году будет еще больше, чем в предыдущем, у меня придумалась хорошая аналогия для объяснения того, что представляет собой рынок.&lt;/p&gt;
+&lt;!-- Container for the image gallery --&gt;
+
+&lt;div class="container"&gt;
+  &lt;!-- Next and previous buttons --&gt;
+
+  &lt;div class="mySlides"&gt;
+    &lt;img src="http://cyberape.space/content/posts/forest-market/market.jpg" style="width:100%"&gt;
+    &lt;a class="next" onclick="plusSlides(1)"&gt;&amp;#10095;&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class="mySlides"&gt;
+    &lt;a class="prev" onclick="plusSlides(-1)"&gt;&amp;#10094;&lt;/a&gt;
+    &lt;img src="http://cyberape.space/content/posts/forest-market/stock.jpg" style="width:100%"&gt;
+    &lt;a class="next" onclick="plusSlides(1)"&gt;&amp;#10095;&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class="mySlides"&gt;
+    &lt;a class="prev" onclick="plusSlides(-1)"&gt;&amp;#10094;&lt;/a&gt;
+    &lt;img src="http://cyberape.space/content/posts/forest-market/place.jpg" style="width:100%"&gt;
+    &lt;a class="next" onclick="plusSlides(1)"&gt;&amp;#10095;&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class="mySlides"&gt;
+    &lt;a class="prev" onclick="plusSlides(-1)"&gt;&amp;#10094;&lt;/a&gt;
+    &lt;img src="http://cyberape.space/content/posts/forest-market/blame.jpg" style="width:100%"&gt;
+    &lt;a class="next" onclick="plusSlides(1)"&gt;&amp;#10095;&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class="mySlides"&gt;
+    &lt;a class="prev" onclick="plusSlides(-1)"&gt;&amp;#10094;&lt;/a&gt;
+    &lt;img src="http://cyberape.space/content/posts/forest-market/compass.jpg" style="width:100%"&gt;
+    &lt;a class="next" onclick="plusSlides(1)"&gt;&amp;#10095;&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class="mySlides"&gt;
+    &lt;a class="prev" onclick="plusSlides(-1)"&gt;&amp;#10094;&lt;/a&gt;
+    &lt;img src="http://cyberape.space/content/posts/forest-market/camps.jpg" style="width:100%"&gt;
+    &lt;a class="next" onclick="plusSlides(1)"&gt;&amp;#10095;&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class="mySlides"&gt;
+    &lt;a class="prev" onclick="plusSlides(-1)"&gt;&amp;#10094;&lt;/a&gt;
+    &lt;img src="http://cyberape.space/content/posts/forest-market/ReaganThatcher.jpg" style="width:100%"&gt;
+    &lt;a class="next" onclick="plusSlides(1)"&gt;&amp;#10095;&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class="mySlides"&gt;
+    &lt;a class="prev" onclick="plusSlides(-1)"&gt;&amp;#10094;&lt;/a&gt;
+    &lt;img src="http://cyberape.space/content/posts/forest-market/LeninStalin.jpg" style="width:100%"&gt;
+    &lt;a class="next" onclick="plusSlides(1)"&gt;&amp;#10095;&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class="mySlides"&gt;
+    &lt;a class="prev" onclick="plusSlides(-1)"&gt;&amp;#10094;&lt;/a&gt;
+    &lt;img src="http://cyberape.space/content/posts/forest-market/spice_and_wolf.jpg" style="width:100%"&gt;
+    &lt;a class="next" onclick="plusSlides(1)"&gt;&amp;#10095;&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class="mySlides"&gt;
+    &lt;a class="prev" onclick="plusSlides(-1)"&gt;&amp;#10094;&lt;/a&gt;
+    &lt;img src="http://cyberape.space/content/posts/forest-market/newdeal.jpg" style="width:100%"&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Image text --&gt;
+  &lt;div class="caption-container"&gt;
+    &lt;p id="caption"&gt;&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;!-- The dots/circles --&gt;
+  &lt;div style="text-align:center"&gt;
+    &lt;span class="dot" onclick="currentSlide(1)"&gt;Что такое лес? С одной стороны, это просто случайное нагромождение деревьев на достаточно большой территории.&lt;/span&gt;
+    &lt;span class="dot" onclick="currentSlide(2)"&gt;С другой стороны, это сложная нелинейная система, до сих пор не до конца понятая даже учеными.&lt;/span&gt;
+    &lt;span class="dot" onclick="currentSlide(3)"&gt;Каждый человек имеет свое представление о лесе, определяемое местом, где он живет. Мягкие, цивилизованные леса центральной Европы, словно бы созданные для пикников, не имеют ничего общего с джунглями Амазонки или сибирской тайгой.&lt;/span&gt;
+    &lt;span class="dot" onclick="currentSlide(4)"&gt;И каждый имеет собственное представление о том, как правильно взаимодействовать с лесом, основанное на его субъективном опыте.&lt;/span&gt;
+    &lt;span class="dot" onclick="currentSlide(5)"&gt;Обычно эти представления упрощают весь спектр динамик реального леса до линейной черно-белой модели, которая всегда подскажет, как поступать правильно.&lt;/span&gt;
+    &lt;span class="dot" onclick="currentSlide(6)"&gt;Когда люди, глубоко уверенные в корректности своих черно-белых моделей, получают власть над лесом, это кончается катастрофой.&lt;/span&gt; 
+    &lt;span class="dot" onclick="currentSlide(7)"&gt;Кто-то был уверен, что правильнее всего устраниться от контроля над лесом, дать ему развиваться так, как было заложено природой; а потом с удивлением обнаружил, что бесконтрольные лесные пожары выжигают целые города.&lt;/span&gt; 
+    &lt;span class="dot" onclick="currentSlide(8)"&gt;Кто-то, наоборот, решил, что лучше вырубить весь лес подчистую и создать на его месте искусственную экосистему; и как-то неожиданно обнаружил себя посреди непригодной для жизни пустыни.&lt;/span&gt;
+    &lt;span class="dot" onclick="currentSlide(9)"&gt;Это не было бы так обидно, если бы происходило во времена, когда дожди и пожары считались эмоциями богов; но сегодня, когда мы можем предсказывать их с 90%-ной точностью, повторение ошибок прошлого уже не оправдать.&lt;/span&gt;
+    &lt;span class="dot" onclick="currentSlide(10)"&gt;У нас все еще нет единой теории, описывающий все поведение леса одним уравнением; но это не повод не использовать отдельные методы лесничества, которые объективно работают.&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content></entry><entry><title>Думать как Илон Маск</title><link href="http://cyberape.space/elonthink.html" rel="alternate"></link><published>2018-12-31T00:00:00+03:00</published><updated>2018-12-31T00:00:00+03:00</updated><author><name>FunBotan</name></author><id>tag:cyberape.space,2018-12-31:/elonthink.html</id><summary type="html">&lt;p&gt;Нужно всего лишь...&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
 &lt;p&gt;Первый шаг — понять, что возможно. А дальше за дело возьмется вероятность.&lt;br&gt;
 — Илон Маск  &lt;/p&gt;
 &lt;/blockquote&gt;
