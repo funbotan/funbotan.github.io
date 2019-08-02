@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Cyber Ape stories</title><link href="http://cyberape.space/" rel="alternate"></link><link href="http://cyberape.space/atom" rel="self"></link><id>http://cyberape.space/</id><updated>2019-07-21T00:00:00+03:00</updated><entry><title>Мам, пусти на Луну</title><link href="http://cyberape.space/apollo11.html" rel="alternate"></link><published>2019-07-21T00:00:00+03:00</published><updated>2019-07-21T00:00:00+03:00</updated><author><name>FunBotan</name></author><id>tag:cyberape.space,2019-07-21:/apollo11.html</id><summary type="html">&lt;p&gt;50 лет со дня первой высадки на Луну — отличный повод по-новому взглянуть на наше прошлое и будущее в космосе.&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Cyber Ape stories</title><link href="http://cyberape.space/" rel="alternate"></link><link href="http://cyberape.space/atom" rel="self"></link><id>http://cyberape.space/</id><updated>2019-08-03T00:00:00+03:00</updated><entry><title>Парадокс Манделы и диалектика протеста</title><link href="http://cyberape.space/mandelas-paradox.html" rel="alternate"></link><published>2019-08-03T00:00:00+03:00</published><updated>2019-08-03T00:00:00+03:00</updated><author><name>FunBotan</name></author><id>tag:cyberape.space,2019-08-03:/mandelas-paradox.html</id><summary type="html">&lt;p&gt;Чем государства похожи на звезды и кто во всем виноват&lt;/p&gt;</summary><content type="html">&lt;p&gt;*&lt;em&gt;не путать с &lt;a href="https://lurkmore.to/%D0%AD%D1%84%D1%84%D0%B5%D0%BA%D1%82_%D0%9C%D0%B0%D0%BD%D0%B4%D0%B5%D0%BB%D1%8B" target="_blank"&gt;эффектом Манделы&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Никто не рождается с ненавистью к другому человеку из-за цвета кожи, происхождения или религии. Люди учатся ненавидеть, и, если они могут научиться ненавидеть, то могут переучиться любить.&lt;br&gt;
+Я убежден, что &lt;strong&gt;угнетатель должен быть освобожден так же, как и угнетенный&lt;/strong&gt;. Человек, забравший свободу другого, сам становится пленником своей ненависти.&lt;br&gt;
+— &lt;a href="http://www.awakin.org/read/view.php?tid=2175" target="_blank"&gt;Нельсон Мандела&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Со стороны может показаться, что борьба за свободу — игра с нулевой суммой; что если у одного ее стало меньше, то у кого-то другого должно стать больше. Но так ли это на самом деле? Насколько свободен миллиардер, которого ради наследства готовы загрызть его собственные дети? Насколько свободен президент, который не может появиться на улице без бронированного автомобиля, полка телохранителей и снайперов на каждой крыше?&lt;/p&gt;
+&lt;p&gt;В модели &lt;a href="black-attractor.html"&gt;Черного аттрактора&lt;/a&gt; я исходил из предположения, что каждый индивид пытается заполучить как можно больше свободы &lt;em&gt;в будущем&lt;/em&gt; (это важно), будь она в форме власти, денег или ресурсов. И первый вывод, к которому приводит эта модель, я назвал &lt;strong&gt;парадоксом Манделы&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Оказывается, что чем больше свободы в будущем накопил индивид, тем меньше свободы остается у него в настоящем, потому что тем меньше путей в пространстве возможных действий ведут в сторону дальнейшего роста накоплений и тем больше — в сторону их уменьшения. В пределе это означает, что обладание всеми ресурсами Вселенной и абсолютной властью над ее обитателями принципиально не отличается от одиночного заключения. Хотя, одно важное отличие все-таки есть: возможность по доброй воле раздать свои накопления. Но часто ли такое случалось в реальности?&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="http://cyberape.space/content/posts/mandelas-paradox/slave.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Получается, что максимум средней свободы для каждого достигается, когда все эти свободы равны между собой. Такое состояние называется плоской, или горизонтальной иерархией.&lt;/p&gt;
+&lt;p&gt;Чем вертикальнее иерархия, тем больший дворец может позволить себе тот, кто находится на ее вершине; но, в то же время, тем больше будет тюрьма в его подвале. Подобно магнитным полюсам, дворец существует только потому, что существует тюрьма, и наоборот. Никому еще не удавалось получить одно без другого. СССР пробовал, и кончилось это гулагами. США пробовали, и сегодня они занимают первое место в мире по количеству заключенных, как в абсолютных числах, так и на душу населения. Более ранние попытки заканчивались еще плачевнее.&lt;/p&gt;
+&lt;p&gt;Причины более чем очевидны: чем больше благ сосредоточено на вершине, тем их меньше на дне иерархии, тем больше его обитателей готовы восстать, и тем больше сила, толкающая систему к перевороту. Эта сила рождает &lt;a href="self-sustaining-power.html"&gt;равную и противоположно направленную, которая и принимает вид Гестапо, НКВД или ICE&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Государство в этом смысле подобно звезде. Звезды живут до тех пор, пока сила гравитации, сжимающая их ядра, равна силе их теплового расширения. Если одна из сил проигрывает, звезда умирает, взрываясь и/или коллапсируя. Что чему соответствует в этой аналогии — додумать несложно.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="http://cyberape.space/content/posts/mandelas-paradox/star.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Но почему вертикальные иерархии вообще существуют, если для произвольно взятого человека они почти всегда хуже горизонтальных?
+&lt;em&gt;Конкуренция&lt;/em&gt;. При прочих равных группа с вертикальной иерархией обычно побеждает группу с горизонтальной в любом состязательном сценарии, будь то рыночная конкуренция или война; и это значит, что горизонтальные иерархии тоже неустойчивы. По этой причине мы практически не видим крупных корпораций с рабочим самоуправлением (хотя есть исключения): они отлично функционируют в изоляции, но не могут соперничать с капиталистическими конкурентами (и отнюдь не из-за продуктивности). По той же причине демократически организованные армии не встречаются вообще нигде, даже в самых демократических странах.&lt;/p&gt;
+&lt;p&gt;Получается, что и тут мы имеем противостояние двух сил. Сила, действующая извне, стремится сделать иерархию вертикальнее, а действующая изнутри — горизонтальнее. И, к сожалению, их противостояние не может продолжаться вечно. Как и звезды, &lt;a href="civil-death.html"&gt;цивилизации умирают&lt;/a&gt;. Но это не повод отказаться от борьбы за более справедливый мир, так же, как и Второй закон термодинамики — не повод лечь и умереть. Мы знаем, что конечным результатом жизни так или иначе будет смерть, но это не значит, что путь к ней не имеет значения. Напротив, &lt;em&gt;только он&lt;/em&gt; и имеет значение.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="http://cyberape.space/content/posts/mandelas-paradox/misik.jpg"&gt;
+На арте изображена &lt;a href="https://vk.com/ola_viola"&gt;Оля Мисик&lt;/a&gt;. Нарисовал &lt;a href="https://www.instagram.com/p/B0l9Vg_nS2_/?igshid=vyzi5hlbnl7"&gt;Kotik&lt;/a&gt;.&lt;/p&gt;
+&lt;!--stackedit_data:
+eyJoaXN0b3J5IjpbLTg2ODYzMzEwMiwtNTcwNzgwODQsMTkyNT
+UzNDI3OCwtMTE5MTMwMzYzNyw3NDg1Njg2MTcsLTEzMTcwNDg5
+NDIsNzAyNzk5NDIxLC05NjU3MzAwMzYsLTM0NzkzMTIwLDE5OT
+YwNzM1MzUsMTQ2MjMxMDA0NSwtNTQ4OTkwNjc0LC0yMDM4NDY0
+MjY0LC0xNjU5Nzg0MzM4LDc4NjIzMzM5OCwxODk5NTQ5NjQzLC
+0xMzk4ODI4NDk4LDk3MzA0NTIxMCwzMDE3MjE1OCw3MDMxODY4
+OF19
+--&gt;</content></entry><entry><title>Мам, пусти на Луну</title><link href="http://cyberape.space/apollo11.html" rel="alternate"></link><published>2019-07-21T00:00:00+03:00</published><updated>2019-07-21T00:00:00+03:00</updated><author><name>FunBotan</name></author><id>tag:cyberape.space,2019-07-21:/apollo11.html</id><summary type="html">&lt;p&gt;50 лет со дня первой высадки на Луну — отличный повод по-новому взглянуть на наше прошлое и будущее в космосе.&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
 &lt;p&gt;That's one small step for [a] man, one giant leap for mankind.&lt;br&gt;
 — Нил Армстронг, 21.07.1969&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -27,13 +55,13 @@
 &lt;p&gt;И, продолжая аналогию, можно утверждать две вещи. Первая — у нас уже никогда не будет ничего, похожего на Аполлон 11. И вторая — впереди может ждать что-то гораздо лучше.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="http://cyberape.space/content/posts/apollo11/love.png"&gt;
 &lt;!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODg2MTQ3MDksLTE5MTUzMTYzODAsMT
-UzMjIwNDQ1MSw4NjIwNjcyODQsMzg5NDQyODUzLDEzMDk1MzY5
-MDYsNjY4NzMxNDc0LC0yMDMxODYyMjAsLTEzNjc2NDQzMjcsLT
-ExMjE3MTg1MjksMTE4MDk5NTIzMywxNjIzODc1NDkyLC0yMTIw
-NDc0NjM5LDExNjE5MDYzNzQsMjAyODU0MzU3OSw4MzQzMjg5Mz
-gsLTE5MDcxMDY5ODMsMTEzOTkxMjQ2NCwtMTQwMzQxODI4MCwt
-MTgxNDYxNzgwN119
+eyJoaXN0b3J5IjpbMTkxMDA2MjkzOSwtMTk4ODYxNDcwOSwtMT
+kxNTMxNjM4MCwxNTMyMjA0NDUxLDg2MjA2NzI4NCwzODk0NDI4
+NTMsMTMwOTUzNjkwNiw2Njg3MzE0NzQsLTIwMzE4NjIyMCwtMT
+M2NzY0NDMyNywtMTEyMTcxODUyOSwxMTgwOTk1MjMzLDE2MjM4
+NzU0OTIsLTIxMjA0NzQ2MzksMTE2MTkwNjM3NCwyMDI4NTQzNT
+c5LDgzNDMyODkzOCwtMTkwNzEwNjk4MywxMTM5OTEyNDY0LC0x
+NDAzNDE4MjgwXX0=
 --&gt;&lt;/p&gt;</content></entry><entry><title>Манхэттенская дилемма</title><link href="http://cyberape.space/manhattan-dilemma.html" rel="alternate"></link><published>2019-07-19T00:00:00+03:00</published><updated>2019-07-19T00:00:00+03:00</updated><author><name>FunBotan</name></author><id>tag:cyberape.space,2019-07-19:/manhattan-dilemma.html</id><summary type="html">&lt;p&gt;Да, мы познали грех. Но реальный выбор, который у нас был – съесть запретный плод или сдохнуть с голоду.&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
 &lt;p&gt;Когда все закончилось, в Лос-Аламосе возникло ужасное возбуждение. Все устраивали вечеринки, и мы носились повсюду. Я забился в угол джипа и там бил в барабан и все такое. Но один человек, я помню, Боб Вильсон, сидел подавленный и безучастный.&lt;br&gt;
 – Почему ты хандришь? – спросил я его.&lt;br&gt;
