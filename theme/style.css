@@ -58,7 +58,7 @@ body {
 img + em {
   font-size: 18px;
   color: #555;
-  max-width: 80%;
+  margin: 0 20%;
 }
 
 pre {
