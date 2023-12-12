@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <title>Embeddings, Aufhebung & Denkökonomie - Cyber Ape stories</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.0.0/build.css" />
+    <link href="/theme/style.css" rel="stylesheet" />
+    <link href="/theme/slideshow.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="/theme/favicon.png"/>
+    <link href="https://cyberape.space/atom" type="application/atom+xml" rel="alternate" title="Cyber Ape stories Atom Feed" />
+    <link href="https://cyberape.space/rss" type="application/rss+xml" rel="alternate" title="Cyber Ape stories RSS Feed" />
+<meta property="og:title" content="Embeddings, Aufhebung & Denkökonomie" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cyberape.space/en/embeddings.html" />
+<meta itemprop="url" content="https://cyberape.space/en/embeddings.html" /> 
+<meta property="og:description" content="Connecting some dots between machine learning, neurobiology, and the 19th-century German philosophy" />
+<meta name="description" content="Connecting some dots between machine learning, neurobiology, and the 19th-century German philosophy" />
+ 
+<meta property="og:article:published_time" content="2023-12-12" /> 
+ 
+ 
+<meta property="og:image" content="https://cyberape.space/en/content/posts/embeddings/cover.jpg" />
+<meta itemprop="image" content="https://cyberape.space/en/content/posts/embeddings/cover.jpg" /> 
+<meta name="twitter:site" content="@funbotan" />
+ 
+    <script type="text/javascript">
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("backbutton").style.display = "block";
+        } else {
+          document.getElementById("backbutton").style.display = "none";
+        }
+      }
+    </script>
+  </head>
+
+
+  <body id="index" class="archive">
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="topnav" id="myTopnav">
+          <a href="https://cyberape.space/en" id="mainpage" class="nav">🏠 Blog</a>
+          <div class="dropdown">
+            <button class="dropbtn" id="projects">📚 Books 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="https://cyberape.space/en/ce.html">The Chimpanzee Effect</a>
+            </div>
+          </div>
+          <a href="https://cyberape.space/en/translations.html" id="translations" class="nav"><i class="fas fa-language"></i> Translations</a>
+          <a href="http://www.youtube.com/c/FunBotan" target="_blank" class="fab fa-youtube"></a>
+          <a href="https://twitter.com/CyberApeStories" target="_blank" class="fab fa-twitter"></a>
+          <a href="https://t.me/cyberape" target="_blank" class="fab fa-telegram-plane"></a>
+        </div>
+        <div class="motto">
+          Literary blog about philosophy, futurism and science fiction.</a>
+          <br />
+          Please keep in mind that I've learned English as a second language
+        </div>
+      </div>
+    </nav>
+<style type="text/css">
+  #mainpage {
+    background-color: #428bca;
+  }
+</style>
+<div class="container">
+  <section id="content" class="article content">
+    <!-- @html-ignore -->
+    <div class="background-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/content/posts/embeddings/cover.jpg);">
+      <h1 class="cover-title">
+        Embeddings, Aufhebung & Denkökonomie
+      </h1>
+ Translations: 
+<a href="https://cyberape.space/en/../embeddings.html">ru</a>
+
+      <div class="text-muted">Di 12 Dezember 2023</div>
+      <p class="cover-title" style="color:#fff;">Read time: 23 min</p>
+    </div>
+    <!-- .entry-content -->
+    <div class="entry-content">
+      <h2>Machine learning perspective</h2>
+<p>Without knowing anything about the nature of colors, we may naively assume that each hue (red, green, blue, yellow, purple, etc.) exists independently of the others. However, having started mixing colors, we quickly (or not so quickly) come to the conclusion that there are only three truly independent colors: red, green, and blue, and all the rest are their <em>linear combinations</em><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> (mixtures in different proportions).</p>
+<p>Even for those with little knowledge of mathematics, it should not be difficult to imagine colors as three-dimensional vectors (lists of three numbers). But what is the benefit of this representation? Firstly, we obtain a correspondence between the physical process of color mixing and arithmetic operations on vectors. Secondly, this representation is also maximally <em>compressed</em>; it takes up the minimum possible amount of memory.</p>
+<p><img alt="" src="{filename}rgb.jpg"></p>
+<p>The example of colors is good precisely because we know the answer in advance. But there are many other classes of objects for which we would like to obtain a representation with similar properties, but how to do this is not at all obvious. One such class could be <em>words</em>.</p>
+<p>Again, we can start with the assumption that all words are independent of each other; that is, in the linear space of words, each of them corresponds to its own dimension (this approach is called one-hot encoding). But this assumption will quickly be shattered by fairly obvious examples of antonyms, such as “high - low,” “bright - dim,” “help - hinder,” “loud - quiet.” For each pair of antonyms, we can write down an equation of the form “high + low = 0”, “help + hinder = 0”, etc. In this way, we algebraically <em>express</em> one word through another, which means we can eliminate one of the two dimensions originally allocated to them. Moreover, the right side of these equations needs not be zero. It could also be a non-zero vector: <em>another word</em>. For example: “damp + cold = dank”, “irony + mockery = sarcasm”, “music + poetry = song”. Moving up a level to four words in one equation, we can begin to illustrate the different kinds of relationships between words. For example, “king - man + woman = queen” is a semantic relationship, and “big + less = small + more” is a syntactic one. These are just the simplest examples; there is no limit to the complexity of such constructs.</p>
+<p><img alt="" src="{filename}words.png"></p>
+<p>The problem is that considering all possible verbal equations for expressing words through each other and determining the relative positions of their corresponding vectors is a task that is far beyond reasonable in terms of labor intensity. Which is why it was solved only with the advent of machine learning. A breakthrough in word vectorization was the simply named <a href="https://arxiv.org/abs/1301.3781">word2vec algorithm</a>, published a decade ago. The general public probably remembers it from some meme-worthy examples of verbal equations:</p>
+<blockquote>
+<p>pig - oink + Santa = HO HO HO<br>
+pig - oink + Woody Woodpecker = Yabba dabba doo<br>
+pig - oink + Fred Flinstone = wassup<br>
+pig - oink + Homer Simpson = D’oh<br>
+pig - oink + Donald Trump = YOU’RE FIRED<br>
+pig - oink + Einstein = E = mc2</p>
+</blockquote>
+<p>Along with machine learning, a new word has appeared to describe such vector representations of objects: <strong>embeddings</strong>, also known as latent vectors, since the linear space they occupy is called <strong>latent space</strong>.</p>
+<p>The algorithm for generating embeddings turned out to be rather indirect. It consists of training a model, usually a neural network, to <em>guess</em> information. For example, in the case of words, we can remove one word from a sentence and have the model <em>predict</em> what should be in its place. Embeddings are generated during the training process as the model’s internal representations of data which it is processing. If this explanation was confusing, then you only have to remember one thing: the connection between embeddings and predictions. We will need this connection soon.</p>
+<p><img alt="" src="{filename}translation.png"></p>
+<p>An interesting property of language is that embeddings of words from different languages will form a very similar structure, and by overlaying the latent spaces of different languages, one can create a dictionary for translation between them <em>without a single example of actual translation</em>. This property has been known for a long time, albeit in a different formulation, and was used by archaeologists to decipher dead languages long before machine learning. It indicates that embeddings are not arbitrary but are an objective property (or rather, a homomorphic image) of what they are encoding. So, in the limit, different methods for calculating embeddings of the same objects should theoretically converge to similar results.</p>
+<p>With the help of machine learning, we can calculate embeddings for anything, provided that we have a sufficient number of examples illustrating relationships between the objects in question. For example, texts can be used to construct word embeddings, but you can also embed higher-level structures: sentences, paragraphs, entire articles. They will simply require many more examples. Images are a little more complicated, but if you've ever solved a captcha like "select all squares that contain X to prove you're not a robot", you've helped some corporation (most likely Google) create better image embeddings.</p>
+<p><img alt="" src="{filename}captcha.jpg"></p>
+<p>Embedding technology is also a pillar of all breakthroughs in the field of artificial intelligence in recent years, which is not surprising: embeddings, in essence, are a portal between the real world of people and the digital world of machines. ChatGPT and other generative neural networks like Stable diffusion and Midjourney rely on them.</p>
+<p>But what are embeddings at a fundamental level? By formal definition, they are just vectors whose geometric distance is proportional to the similarity of the objects they represent (an isometric homomorphism, if you will). Essentially, computing embeddings is the task of <em>classifying</em> objects and determining their degree of relatedness, whatever that means in each specific case.</p>
+<p><img alt="" src="{filename}sentences.png"></p>
+<p>This property of correspondence between geometrical distance in latent space and similarity of embedded objects can be leveraged to perform similarity search. First, you build a database of embeddings (called a vector database) as a key-value storage, with vectors being keys and original objects being values. Then, you can run any new object through the same model to obtain its embedding. Finally, you do a K-nearest-neighbors search on that embedding in the database and return the values corresponding to found keys. This is roughly how image search, facial recognition, and recommendation algorithms work. Even most text search engines already use embeddings to search not only for literal matches with the search query but also for texts that are similar in meaning but phrased differently. Such search is called <em>semantic</em>.</p>
+<p><img alt="" src="{filename}vdb.png"></p>
+<p>But, as I briefly mentioned at the beginning, a side effect of computing embeddings is the compression of information<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. And there is some reason to believe that this is not just a side effect but an <em>equivalent definition</em> of embeddings. This reason is an incredibly interesting <a href="https://aclanthology.org/2023.findings-acl.426/">article</a>, which proposes a way to measure distance between texts using compression (based on the notion of <a href="https://brilliant.org/wiki/kolmogorov-complexity/">Kolmogorov complexity</a>), thereby allowing the use of compressed texts as quasi-embeddings. It then compares embeddings produced by the most powerful language models with a conventional Gzip archiver in the text classification task. Paradoxically, in many tests (especially on small samples and outside the training distribution), Gzip's performance came close to much more complex language models.</p>
+<p>If that made no sense to you, then here is the conclusion in simpler words. Classifying objects requires identifying their common features, but if we have found such features, then we no longer need to remember them for each object separately; it is enough to have one record for all objects of the same class. Conversely, the task of information compression requires a reduction of repeating sequences, which turn out to be common properties of objects. In other words, both tasks come down to <em>generalization</em>.</p>
+<p>But notice that neither machine learning nor even embeddings themselves appear in the previous paragraph. This is because it uncovers a much more general principle that applies, among other things, to the human brain. Evidence of this can be found in research from the field of mind reading: this year alone, two sci-fi-level results were obtained there.</p>
+<p>The first is the <a href="https://www.nature.com/articles/s41593-023-01304-9">semantic reconstruction of language</a>: decoding heard, read, and even imaginary (internal) speech from brain scans. Remarkably, the developed system does not reproduce words exactly but in a slightly different formulation that preserves the general meaning, hence the “semantic” qualifier. This means that it reconstructs <em>the thoughts</em> themselves and not, for example, the motor signals that the brain involuntarily sends to the tongue and larynx, even when it is not speaking out loud. But most interestingly, if the same system is used on a person who is watching a silent film, the result of decoding their thoughts will be a text description of the scenes of this film!</p>
+<p><a href="https://ai.meta.com/blog/brain-ai-image-decoding-meg-magnetoencephalography/">The second result</a> is a similar system but for the reconstruction of images, visible or imaginary. Its properties are the same: the images do not match exactly, but they are similar in a rather curious way, reflecting what details the person is paying attention to.</p>
+<p>Both systems share a very similar architecture and contain two key elements:</p>
+<ol>
+<li>Generative neural network. Semantic language reconstruction uses GPT-1, and image reconstruction uses a diffusion model from the same class as Stable diffusion and Midjourney.</li>
+<li>A model of the subject’s brain, implemented as an artificial neural network that, based on data (text or picture), predicts what signals the brain that thinks about this data will produce. I was amazed by the fact that this is already possible: in theory, modeling the human brain should not be achievable with the current level of technology. However, the models exist, and they work. Even if this is just a rough approximation at the moment, the very fact that such an approximation is possible and useful makes a big difference in estimating the complexity of this problem. Fortunately, to obtain results, the model must be trained individually on each subject, which is impossible without their cooperation, so it’s yet too early to worry about the adoption of mind reading by states and corporations for nefarious purposes. <em>Yet.</em></li>
+</ol>
+<p>The system works as follows. First, the generative neural network creates many different variations of text or images. These options are fed to the neural network that models the brain, and it generates corresponding signals. They are compared with real brain scans of the subject, and the most similar ones are selected. The data that generated these signals arrive at the output of the system as decoded results, but at the same time are transmitted back to the generative model, which generates suitable continuations to repeat the process.</p>
+<p>All this is strikingly reminiscent of the semantic search mechanism described above. If we treat brain states as analogs of embeddings, then the process of mind decoding is just a similarity search in the space of these embeddings. Indeed, earlier studies independently confirmed that <a href="https://www.nature.com/articles/nature21692">the brain also uses the concept of latent space</a>, and <a href="https://proceedings.neurips.cc/paper/2018/file/99064ba6631e279d4a74622df99657d6-Paper.pdf">the process of memory consolidation in the hippocampus is strikingly similar to the computation of embeddings</a>. Particularly amazing is a <a href="https://arxiv.org/pdf/2112.04035.pdf">paper showing equivalence</a> between the hippocampus model and transformers, a class of artificial neural networks that underlie recent breakthroughs in natural language processing (that’s what T in GPT stands for) and which were developed without any prior knowledge of neurobiology. So, science once again converged to a solution that nature had already invented<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>. But this raises another question: what problem was <em>nature</em> solving?</p>
+<h2>Neurobiological perspective</h2>
+<p>On the one hand, the adaptive value of the human brain cannot be overestimated (says a human brain, ha-ha), which means that its development should have been very strongly encouraged by natural selection. This is supported by the relatively rapid evolution of the human brain. On the other hand, biophysics imposes strict constraints on the parameters of the brain. These are, firstly, physical dimensions, limited by the constraint of having to be born. Secondly, the human brain already consumes a fifth of the body’s total energy, and energy in nature is a strictly limited resource, so there was no opportunity to freely increase its consumption until quite recently, by evolutionary standards, with the emergence of agriculture. Thus, we have a very acute contradiction between the need to increase the power of the brain and the limitations on the parameters by which this could be achieved. It then follows that <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5651807/">the evolution of the brain should have gone in the direction of increasing <em>efficiency</em></a>. And indeed, it seems that <a href="https://www.lesswrong.com/posts/xwBuoE9p8GE7RAuhd/brain-efficiency-much-more-than-you-wanted-to-know">it is already about as efficient as it can theoretically be</a>. Many other human adaptations <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9197885/">that increase energy efficiency at the expense of brute force</a> hint at the same direction.</p>
+<p>But how is this efficiency achieved? For the answer, we again have to turn to machine learning, which <a href="https://arxiv.org/abs/1605.08104">found</a> that if you constrain the model in the energy budget, it automatically produces a predictive coding mechanism: the same one that produces embeddings! Moreover, transferring this result from artificial neural networks to biological ones is not a leap of faith: we already know for sure that predictive coding mechanisms arise in almost any well-optimized part of the brain.</p>
+<p>Since humans spend most of their time communicating with others (or at least did so until they invented the damned Internet), optimizing social interaction has been a high priority for evolution. The result of this optimization was, on the one hand, a <a href="https://pubmed.ncbi.nlm.nih.gov/12921766/">highly specialized language cortex</a>, which <a href="https://www.nature.com/articles/s41562-022-01516-2">constantly tries to predict what it will hear</a>, and on the other, mirror neurons, which completely model the mental state of other people (and, with proper development, not only people), and therefore they inevitably operate with compressed representations, since no system can completely model itself.</p>
+<p>“What I cannot create, I do not understand,” said Richard Feynman. If we think this way, it’s hard not to come to the conclusion that the creation of artificial intelligence is our most successful attempt to understand our own.</p>
+<p>From a theoretical point of view, all this fits perfectly into the system of general <a href="https://en.wikipedia.org/wiki/Good_regulator">theorems</a> formulated for all systems, including brains, within the framework of cybernetics. <a href="http://www.hutter1.net/ai/aixigentle.htm">One of these theorems</a> states that if we consider the subject and the world with which they interact as computers exchanging information, then making optimal decisions for the subject, which is equivalent to predicting the consequences of available actions, is reducible to the maximum compression of information about the world. Of course, it would be premature to transfer this theorem to the real world since it is based on a rather shaky assumption of universal computability. But it would be equally unwise to ignore its conclusion.</p>
+<p>And now, it's finally time to put everything together. Efficiency necessitates prediction, prediction necessitates generalization, generalization is equivalent to compression... And what is compression? It is the <em>efficiency</em><sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> of storing information! The loop is closed, which means that all these processes are equivalent to each other at a fundamental level!</p>
+<h2>Philosophical perspective</h2>
+<p>The conclusion derived above is, of course, not that new. Similar ideas have been put forward in many forms, starting perhaps from an Austrian philosopher <a href="https://www.leopoldina.org/fileadmin/redaktion/Mitglieder/CV_Ernst_Mach_D.pdf">Ernst Mach</a> and <a href="https://plato.stanford.edu/entries/ernst-mach/#Sci">his scientific framework of <em>Denkökonomie</em></a>, which literally translates to “economy of thought”, “economy” meaning savings or efficiency. At its core, this framework demands the simplest possible (most economical) explanation of observed facts in science; it's essentially a beefed-up version of Occam's Razor, which Mach also derived from biological necessity. Today, however, Denkökonomie is remembered more through its criticisms rather than the primary source, and for a good reason: Mach eventually reasoned himself into solipsism by an overly extreme application of his own principle. And there are good reasons to understand how this happened.</p>
+<p>If we accept that (1) Denkökonomie is a <em>sufficient</em> criterion of truth and (2) the brain always strives for the most economical explanation of observed facts, then it follows that all people, as they gain experience, should converge on identical ideas about the world. But empirically, this obviously does not happen. This contradiction can be explained in two ways. The way that Mach chose was to deny the materiality of the world. Indeed, if each observer analyzes their own world, then there is no basis for consistency between their models of those worlds. But a much more economical way to explain the same contradiction is to abandon one of Mach's postulates. Since postulate 2 is now backed by science (as explained above), the problem is obviously in postulate 1. That is, Denkökonomie is not a sufficient but a necessary criterion of truth. Put simply, this means the truth cannot be found by following simplicity alone (string theory and supersymmetry empirically demonstrated this), but somehow, the truth always turns out to be simple.</p>
+<p>But what do we mean by this complexity/economy quantitatively? One answer is explanatory power, which is expressed as a ratio of the number of observations a theory explains divided by the number of assumptions that it relies on and which are unprovable within it. This is usually enough to compare two theories within the same subject domain. In the context of statistical models, the number of assumptions can be replaced with the number of trainable parameters. But it is possible to generalize even further.</p>
+<p>Recall the concept of <a href="https://brilliant.org/wiki/kolmogorov-complexity/">Kolmogorov complexity</a> mentioned earlier. Based on it, a theoretical measure of complexity for scientific theories was suggested by Ray Solomonoff as part of his <a href="https://www.lesswrong.com/posts/Kyc5dFDzBg4WccrbK/an-intuitive-explanation-of-solomonoff-induction#Solomonoff_s_Lightsaber">theory of inductive inference</a>. This is, in essence, a mathematical formalism for Mach's philosophical framework. It, in turn, was the basis for <a href="https://www.lesswrong.com/posts/DFdSD3iKYwFS29iQs/intuitive-explanation-of-aixi">AIXI</a>: an algorithm that is supposedly capable of discovering the most economic theories automatically; in other words, an AGI. The only issue is that none of these things are computable, which is why they were never used in practice. Some, however, try to <a href="https://arxiv.org/abs/1007.2049">approximate AIXI</a>, and this avenue of research probably deserves more attention.</p>
+<p>It is easy to see that scientific progress almost always goes in the direction of more economical theories, at least when considered <em>on a sufficiently long time scale</em>. For example, when radioactivity was first described, it did not fit into existing physical theories at all, and initially, it had to be considered as a completely independent phenomenon, which, of course, is not economical in the short term. But new theories soon emerged, combining old physics with new phenomena into a single and more economical system, and at the same time explaining things that previously seemed inexplicable: why are stars burning, and where atoms come from. Mach himself likely developed his framework by trying to formalize this very observation.</p>
+<p>But there are also situations where Denkökonomie <em>can</em> be used as a criterion of truth, namely, all else being equal. For example, if we put ourselves in the shoes of people who do not yet know about Newton's theory of universal gravitation, then how should we choose between the geocentric and heliocentric cosmological models? Both give fairly accurate predictions, so it is impossible to reject one of them by experiment alone. What is the difference between them? The heliocentric model uses a fixed and small number of parameters to describe orbits, while the geocentric model, in order to achieve the same accuracy, requires winding epicycles onto epicycles, thereby generating many more parameters. Later, Joseph Fourier invented one of the most powerful tools of mathematics: the Fourier transform, which allows one to describe <em>any</em> trajectory or signal in a similar way. Hence, the geocentric model is bad not because it is incorrect but because it does not actually contain information about the motion of the planets: all this information is stored in its parameters. The heliocentric model <em>compresses</em> this information, <em>saving</em> parameters, and this is what makes it preferable. In other words, the heliocentric model has greater explanatory power.</p>
+<p><img alt="" src="{filename}centrism.png"></p>
+<p>While we should strive to use “Copernican modeling” wherever possible, there are problems where this approach fails, and we are forced to resort to “Ptolemaic modeling.” Statistics and machine learning are essentially sciences that study how to do it properly.</p>
+<p>The price for using over-parametrized modeling is usually the model's inability to <em>generalize</em>. In order to at least somewhat regain it, regularization and dimensionality reduction methods were invented. They can be described as artificially limiting the complexity of the model in terms of the number of parameters or their values: in essence, forcing the model to be more <em>economical</em>. These methods come dangerously close to using Denkökonomie as a <em>sufficient</em> criterion of truth, but practice shows that they work, and it is practice that is the ultimate criterion of truth.</p>
+<p>But let us return to the contradiction in Mach's philosophy. Even having rejected Denkökonomie as a sufficient criterion of truth, we are still left with the question: why do different people come to completely different ideas about the world if its economical (compressed) representation, which the brain seeks to find, must be objective and independent of the observer? To answer this, we will have to turn to another branch of philosophy: dialectics.</p>
+<p>What we need from dialectics specifically is the concept of “<a href="https://en.wikipedia.org/wiki/Aufheben"><em>Aufhebung</em></a>,” which I will translate as “overcoming,” although no perfect translation to English exists. A classic example that demonstrates this concept is found in the relationship of the general theory of relativity and quantum mechanics with classical mechanics. These more advanced theories extend beyond classical mechanics, yet they also preserve it as a special case in the limit: when the speed of light approaches infinity and the Planck constant approaches zero, respectively. Technically, we can say that these theories are <em>contradictory</em> because, <em>empirically,</em> the speed of light is not infinite, and Planck's constant is not zero. But the important thing is that more advanced theories can usually simulate less advanced ones through similar thought experiments.</p>
+<p>The procedure of dialectical overcoming is invaluable in theoretical disputes, where the opponent will always present facts that do not fit into your theory. If you cannot use it, you will eventually find yourself sandwiched between two losing options: challenging the facts and removing the facts from the scope of your theory. But the ability to overcome such contradictions not only allows you not to lose an argument but also turns the dispute into a full-fledged research activity that can potentially lead to new discoveries. In such a dispute, truth can really be born.</p>
+<p>However, the easiest way to trace the process of dialectical overcoming is not in discussions between different people but in the process of development of a single person: oneself. Each of us, in the depths of our closets or hard drives, has some notes from ancient times, looking at which we can <s>die of cringe</s> understand how our worldview developed. And the basic law of this development is the preservation of previous versions of ourselves that we overcame. We never throw away all previous experience to start from scratch. Even when radically changing our views, in the new ones, we retain an imprint of the old ones, which strengthens them. For example, it allows us to argue for the new worldview much more competently compared to those for whom it is the starting point. I also believe that somewhere here lies the answer to the <a href="https://www.cs.uic.edu/~liub/lifelong-learning/continual-learning.pdf">problem of continual learning</a>, but extracting it will take some more work.</p>
+<p>For the same reason, not a single generally accepted theory in modern positive science can be <em>refuted</em>. The only way to advance further in knowledge is to <em>overcome</em> the old theory, that is, to find a more general theory, a special case of which will be the old one. But since generalization, as we found out above, is equivalent to compression, it turns out that <em>the result of dialectical overcoming should be more economical</em>. And since dialectical overcoming is also a process of removing contradictions, the converse proposition can be formulated: <em>the more economical our theories are, the fewer contradictions there are between them</em>.</p>
+<p>The same logic explains why persuading people generally doesn't work. It is impossible to produce an “embedding” that can natively integrate into another person's “latent space” without access to their subjective experience, which is inaccessible to us by definition. Only I myself can convince myself of something, either in order to resolve the contradiction in my current model of reality or <a href="http://publicsociology.tilda.ws/ukreng">under the influence of material factors</a>. Socrates’ “maeutics” is based on the first option: it consists of identifying contradictions in the interlocutor’s worldview and making them obvious. Sometimes, this leads to the interlocutor reflecting and changing their opinion in order to resolve the contradiction. However, it is impossible to guarantee persuasion, let alone in a specific direction. Socrates was fine with that: in his gnoseology, each person already contained true knowledge about the world a priori, and all he had to do was to extract it. But that view leads to the same dead end in which Mach later ended up.</p>
+<p>Another significant drawback to this architecture is that it’s <em>monolithic</em>, meaning that it’s impossible to transfer a part of knowledge from one model to another. Returning to the example of embeddings, we can see a manifestation of this problem in that the embeddings themselves are useless without the model that generated them. For the same reason, it is impossible to simply “download” the knowledge accumulated by humanity into the brain of an individual person. Each brain is a new model, and each must independently build its “latent space” from scratch. For this, it must conceptually go through the path that its predecessors already took (this is indirectly confirmed by the above studies on mind reading, where a model must be fitted to each subject). The development of a person repeats in miniature the development of the entire civilization in which they happened to be born. This, by the way, imposes an unpleasant limitation on science itself: sooner or later, the time required to retrace the path of humanity, even in its most compressed form, will exceed life expectancy, and new generations simply will not have enough time to create something original; therefore, artificial life extension or other ways of overcoming this limitation (e.g., hiveminds) will become a necessary condition of further progress. But today may be too early to worry about it.</p>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Actually, colors form not a linear space but a symmetry group SU(3). However, in the interval [0;1], it behaves in the same way as a linear space, and it is in this interval that we usually work with colors. Just be careful with subtraction.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Here, I deliberately omit the rather important difference between lossless and lossy compression. Most embedding models are not designed for restoring the original object using the embedding itself, i.e., if they implement compression, it is a very lossy one. But this clarification becomes unnecessary when we move on to the discussion of human memory, in which these two types of information storage differ more quantitatively than qualitatively.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>You can also recall the story of convolutional neural networks (CNN), which replicate the structure of the mammalian visual cortex. But in this case, people <a href="https://doi.org/10.1162/jocn_a_01544">deliberately “copied” an architecture from nature</a>, which is much less interesting than the independent (convergent) emergence of the same architecture in nature and technology.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>Here I can be accused of substituting the thesis: at the beginning, it was about minimizing thinking, and at the end about minimizing memory. But these things are quite related. Once an economical (compressed) model has been created, cognitive operations with it also simplify, becoming more economical.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+    </div>
+    <!-- /.entry-content -->
+    <footer class="post-info text-muted">
+      <!--
+      <button type="button" class="btn btn-default">          
+        <a href="https://cyberape.space/en/category/post.html"><div class="fa fa-lg fa-folder-open"></div> Пост</a>
+      </button>
+      -->
+    </footer>
+    <!-- /.post-info -->
+  </section>
+</div>
+<!-- <button onclick="window.open('https://cyberape.space/en','_self')" id="backbutton" title="Return to blog index">◄ Back</button> -->
+    <script type="text/javascript" src="/theme/slideshow.js"></script>
+    <footer class="footer">
+      <div class="container">
+        <p class="footer-text">
+          <a href="https://cyberape.space">Переключить на русский</a>
+        <br />
+          &copy; <a href="https://cyberape.space/en">Cyber Ape stories</a> powered by <a href="http://getpelican.com/">pelican</a> and hosted with &hearts; by <a href="https://github.com/">GitHub</a>
+        </p>
+      </div>
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
