@@ -251,8 +251,7 @@ a.category:hover, a.category:focus {
   color: #FFF;
 }
 
-#backbutton {
-  display: none; /* Hidden by default */
+.sticky-button {
   position: fixed; /* Fixed/sticky position */
   top: 20px; /* Place the button at the bottom of the page */
   left: 30px; /* Place the button 30px from the right */
@@ -267,7 +266,7 @@ a.category:hover, a.category:focus {
   font-size: 18px; /* Increase font size */
 }
 
-#backbutton:hover {
+.sticky-button:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
 
