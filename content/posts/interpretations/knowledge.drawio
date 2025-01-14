@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.5">
+  <diagram name="Page-1" id="gXIfLrrditVvsL0OMdc7">
+    <mxGraphModel dx="875" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z73flftIXaND6djZ8-1f-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="z73flftIXaND6djZ8-1f-3" target="z73flftIXaND6djZ8-1f-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z73flftIXaND6djZ8-1f-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="z73flftIXaND6djZ8-1f-3" target="z73flftIXaND6djZ8-1f-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z73flftIXaND6djZ8-1f-3" value="Human with jñāna" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://kagi.com/proxy/brain-and-human-head-icon.jpg?c=N7Pi3QNEaSL6_svD8glSC__wDVyV2V3zvCInmdfWCWIaoFcceJAQNfv5ddBinl5gFHa4wkrmYWpAA_om0YGzrQ3-dRt8lqPcFncQHRADNoCBDE5ObKPcl-FzK78qyaSerQrNy1Ijt1YQFQqo27Y-GELN3mOr0eBKwfRzPFHTJaq37LkCCxDzG3bU4r1QXr-4hmCu_LEp4qaYtlrOvcC3tA%3D%3D;" vertex="1" parent="1">
+          <mxGeometry x="130" y="140" width="107.37" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="z73flftIXaND6djZ8-1f-5" value="Action" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://kagi.com/proxy/violin.svg?c=529GZAI5HgJrBC8Ybka9wfM2NgI8BSscRr1llB6IZoI_NRWJaoew19NJhvq7TRoP24NAdeg1rJuNtFEMd7vNeQ%3D%3D;clipPath=inset(0% 30.67% 0% 29.67%);" vertex="1" parent="1">
+          <mxGeometry x="347" y="90" width="43.63333333333333" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="z73flftIXaND6djZ8-1f-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="z73flftIXaND6djZ8-1f-8" target="z73flftIXaND6djZ8-1f-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z73flftIXaND6djZ8-1f-8" value="Interpretation of action (vidyā)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://kagi.com/proxy/unnamed-1.png?c=vI-Ch4svi2hSqHrxa_vNHZGJgxLkm0PlA1bH_9nqnU3bBUjzqI5jcWgHOfCASEEeZ9Yc5YYDN8okShPbpdaQuDMrksSPAo7YC1t418IB130%3D;" vertex="1" parent="1">
+          <mxGeometry x="297.63" y="230" width="142.37" height="61.63" as="geometry" />
+        </mxCell>
+        <mxCell id="z73flftIXaND6djZ8-1f-11" value="LLM" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://kagi.com/proxy/australian-parrot-black-line-illustration-animals-australia-editable-stroke-341147262.jpg?c=VyxSt_nuZ7YZdhaYdoPA5UlEYYM0kKfmTfNd2do_qV3BYKRlZv-VhUqR5h4mSIaYiCfHtgVPCd3UFm4XKgNcWZ6vK3baFzyTkCKjCq4RHoChl3BZSBc4d8B-RMu0W4q_wluCp24QwrI30x2NoOuSdX9bYvI_wNkbM5n6Vwk-y4LO4vX7vYtf3e6h6h3ud-gL;" vertex="1" parent="1">
+          <mxGeometry x="530" y="137.5" width="105" height="105" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
